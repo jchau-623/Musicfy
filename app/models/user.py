@@ -10,6 +10,10 @@ class User(db.Model, UserMixin):
     username = db.Column(db.String(40), nullable=False, unique=True)
     email = db.Column(db.String(255), nullable=False, unique=True)
     hashed_password = db.Column(db.String(255), nullable=False)
+    image_url = db.Column(db.String(500))
+
+    playlists = db.relationship('Playlist', back_populates='user')
+    songs = db.relationship('Song', back_populates='user')
 
     @property
     def password(self):
@@ -25,6 +29,5 @@ class User(db.Model, UserMixin):
     def to_dict(self):
         return {
             'id': self.id,
-            'username': self.username,
-            'email': self.email
+            'username': self.username
         }
