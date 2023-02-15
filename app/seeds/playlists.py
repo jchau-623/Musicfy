@@ -1,29 +1,29 @@
-from app.models import db, playlist
+from app.models import db, Playlist
 from .playlist_songs import add_songs_to_playlist
 
 playlists = [
     Playlist(#1
-        title='Study Mix',
+        title='Seven Lions',
         user_id=1,
         image_url='https://cofi-bucket.s3.amazonaws.com/art-seeds/polar_art.png'
     ),
     Playlist(#2
-        title='Eazy Steezy',
+        title='Illenium',
         user_id=1,
         image_url='https://cofi-bucket.s3.amazonaws.com/art-seeds/in-my-head-art.png'
     ),
     Playlist(#3
-        title='Ambient',
+        title='What So Not',
         user_id=1,
         image_url='https://cofi-bucket.s3.amazonaws.com/art-seeds/azure-art.png'
     ),
     Playlist(#4
-        title='Music to Walk to',
+        title='Odesza',
         user_id=1,
         image_url='https://cofi-bucket.s3.amazonaws.com/art-seeds/staring_through.png'
     ),
     Playlist(#5
-        title='Sleepy',
+        title='Mariah Carey',
         user_id=1,
         image_url='https://cofi-bucket.s3.amazonaws.com/art-seeds/riverside-art.png'
     ),
