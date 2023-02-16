@@ -12,8 +12,8 @@ class User(db.Model, UserMixin):
     hashed_password = db.Column(db.String(255), nullable=False)
     image_url = db.Column(db.String(500))
 
-    playlists = db.relationship('Playlist', back_populates='user')
     songs = db.relationship('Song', back_populates='user')
+    playlists = db.relationship('Playlist', back_populates='user')
 
     @property
     def password(self):
