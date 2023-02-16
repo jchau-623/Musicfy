@@ -5,27 +5,22 @@ playlists = [
     Playlist(#1
         title='Seven Lions',
         user_id=1,
-        image_url='https://cofi-bucket.s3.amazonaws.com/art-seeds/polar_art.png'
+        image_url='https://yuhtube-bucket.s3.amazonaws.com/playlist-seeds/seven-lions.png'
     ),
     Playlist(#2
         title='Illenium',
         user_id=1,
-        image_url='https://cofi-bucket.s3.amazonaws.com/art-seeds/in-my-head-art.png'
+        image_url='https://yuhtube-bucket.s3.amazonaws.com/playlist-seeds/seven-lions.png'
     ),
     Playlist(#3
         title='What So Not',
         user_id=1,
-        image_url='https://cofi-bucket.s3.amazonaws.com/art-seeds/azure-art.png'
+        image_url='https://yuhtube-bucket.s3.amazonaws.com/playlist-seeds/whatsonot.png'
     ),
     Playlist(#4
         title='Odesza',
         user_id=1,
-        image_url='https://cofi-bucket.s3.amazonaws.com/art-seeds/staring_through.png'
-    ),
-    Playlist(#5
-        title='Mariah Carey',
-        user_id=1,
-        image_url='https://cofi-bucket.s3.amazonaws.com/art-seeds/riverside-art.png'
+        image_url='https://yuhtube-bucket.s3.amazonaws.com/playlist-seeds/odesza.png'
     ),
 ]
 
