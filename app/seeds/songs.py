@@ -7,6 +7,7 @@ songs = [
         artist_id=1,
         song_url='',
         image_url='',
+        album_id=1
     ),
 ]
 

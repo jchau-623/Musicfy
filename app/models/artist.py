@@ -8,6 +8,7 @@ class Artist(db.Model):
     name = db.Column(db.String(35), nullable=False)
     image_url = db.Column(db.String(500))
 
+    albums = db.relationship('Album', back_populates='artist')
     songs = db.relationship('Song', back_populates='artist')
 
     def to_dict(self):

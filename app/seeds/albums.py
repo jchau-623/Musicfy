@@ -3,76 +3,76 @@ from app.seeds.songs import songs
 
 albums = [
     Album( #1
-        title='10 Years of Seven Lions',
+        title='Worlds Apart',
         artist_id=1,
         user_id=1,
-        image_url='https://yuhtube-bucket.s3.amazonaws.com/album-seeds/seven-lions.png'
+        image_url='https://yuhtube-bucket.s3.amazonaws.com/album-seeds/worlds-apart-album.jpg'
     ),
     Album( #2
-        title='Azure Blue',
+        title='Ashes',
         artist_id=2,
         user_id=1,
-        image_url='https://cofi-bucket.s3.amazonaws.com/art-seeds/azure-art.png'
+        image_url='https://yuhtube-bucket.s3.amazonaws.com/album-seeds/ashes-album.jpg'
     ),
     Album( #3
-        title='Discovery',
+        title='Anomaly',
         artist_id=3,
         user_id=1,
-        image_url='https://cofi-bucket.s3.amazonaws.com/art-seeds/discovery_art.png'
+        image_url='https://yuhtube-bucket.s3.amazonaws.com/album-seeds/anomaly-album.jpg'
     ),
     Album( #4
-        title='Escapades',
+        title='The Last Goodbye',
         artist_id=4,
         user_id=1,
-        image_url='https://cofi-bucket.s3.amazonaws.com/art-seeds/escapade.png'
+        image_url='https://yuhtube-bucket.s3.amazonaws.com/album-seeds/thelastgoodbye-album.jpg'
     ),
     Album( #5
-        title='In My Head',
+        title='Love Is Alive',
         artist_id=5,
         user_id=1,
-        image_url='https://cofi-bucket.s3.amazonaws.com/art-seeds/in-my-head-art.png'
+        image_url='https://yuhtube-bucket.s3.amazonaws.com/album-seeds/loveisalive-album.jpg'
     ),
     Album( #6
-        title='Moonglow',
+        title='Cartel II',
         artist_id=6,
         user_id=1,
-        image_url='https://cofi-bucket.s3.amazonaws.com/art-seeds/moonglow-art.png'
+        image_url='https://yuhtube-bucket.s3.amazonaws.com/album-seeds/cartelii-album.jpg'
     ),
     Album( #7
-        title='Polar',
+        title='GABRIEL',
         artist_id=7,
         user_id=1,
-        image_url='https://cofi-bucket.s3.amazonaws.com/art-seeds/polar_art.png'
+        image_url='https://yuhtube-bucket.s3.amazonaws.com/album-seeds/keshi-album.png'
     ),
     Album( #8
-        title='Riverside',
+        title='The Cure To Loneliness',
         artist_id=8,
         user_id=1,
-        image_url='https://cofi-bucket.s3.amazonaws.com/art-seeds/riverside-art.png'
+        image_url='https://yuhtube-bucket.s3.amazonaws.com/album-seeds/thecuretoloneliness-album.jpg'
     ),
     Album( #9
-        title='Satellite Nights',
+        title="The People's Champ",
         artist_id=9,
         user_id=1,
-        image_url='https://cofi-bucket.s3.amazonaws.com/art-seeds/sattelite_nights_art.png'
+        image_url='https://yuhtube-bucket.s3.amazonaws.com/album-seeds/thepeopleschamp-album.jpg'
     ),
     Album( #10
-        title='Staring Through',
+        title='Lost',
         artist_id=10,
         user_id=1,
-        image_url='https://cofi-bucket.s3.amazonaws.com/art-seeds/staring_through.png'
+        image_url='https://yuhtube-bucket.s3.amazonaws.com/album-seeds/lost-album.jpg'
     ),
     Album( #11
-        title='Sweet Dreams',
+        title='brent',
         artist_id=11,
         user_id=1,
-        image_url='https://cofi-bucket.s3.amazonaws.com/art-seeds/sweet_dreams_art.png'
+        image_url='https://yuhtube-bucket.s3.amazonaws.com/album-seeds/brent-album.jpg'
     ),
     Album( #12
-        title='Sweet Dreams',
+        title='For Lack of a Better Name',
         artist_id=12,
         user_id=1,
-        image_url='https://cofi-bucket.s3.amazonaws.com/art-seeds/sweet_dreams_art.png'
+        image_url='https://yuhtube-bucket.s3.amazonaws.com/album-seeds/forlackofabettername-album.jpg'
     ),
 ]
 
