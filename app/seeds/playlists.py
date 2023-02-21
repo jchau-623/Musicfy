@@ -15,7 +15,7 @@ playlists = [
         user_id=1,
     ),
     Playlist(#4
-        title='Odesza Mix',
+        title='EDM Mix',
         user_id=1,
     ),
 ]

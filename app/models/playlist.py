@@ -7,7 +7,6 @@ class Playlist(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     title = db.Column(db.String(35), nullable=False)
     user_id = db.Column(db.Integer, db.ForeignKey('users.id'))
-    image_url = db.Column(db.String(500))
 
     user = db.relationship('User', back_populates='playlists')
     songs = db.relationship('Song', back_populates='playlists', secondary=playlist_songs)
@@ -18,5 +17,4 @@ class Playlist(db.Model):
             'title': self.title,
             'songs': [song.a_to_dict() for song in self.songs],
             'song_ids': [song.id for song in self.songs],
-            'image_url': self.image_url
         }
