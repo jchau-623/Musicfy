@@ -433,6 +433,123 @@ songs = [
         track_number=13,
         album_id=4
     ),
+    Song( #49
+        title='Go',
+        user_id=1,
+        artist_id=5,
+        song_url="https://yuhtube-bucket.s3.amazonaws.com/songs-seeds/Louis+The+Child+-+Go.mp3",
+        image_url="https://yuhtube-bucket.s3.amazonaws.com/album-seeds/loveisalive-album.jpg",
+        track_number=1,
+        album_id=5
+    ),
+    Song( #50
+        title='Fire',
+        user_id=1,
+        artist_id=5,
+        song_url="https://yuhtube-bucket.s3.amazonaws.com/songs-seeds/Louis+The+Child+-+Fire+(ft.+Evalyn).mp3",
+        image_url="https://yuhtube-bucket.s3.amazonaws.com/album-seeds/loveisalive-album.jpg",
+        track_number=2,
+        album_id=5
+    ),
+    Song( #51
+        title='Slow Down Love',
+        user_id=1,
+        artist_id=5,
+        song_url="https://yuhtube-bucket.s3.amazonaws.com/songs-seeds/Louis+The+Child+-+Slow+Down+Love+feat.+Chelsea+Cutler+(Cover+Art).mp3",
+        image_url="https://yuhtube-bucket.s3.amazonaws.com/album-seeds/loveisalive-album.jpg",
+        track_number=3,
+        album_id=5
+    ),
+    Song( #52
+        title='Phone Died',
+        user_id=1,
+        artist_id=5,
+        song_url="https://yuhtube-bucket.s3.amazonaws.com/songs-seeds/Louis+The+Child+-+Phone+Died+(feat.+Blaise+Railey).mp3",
+        image_url="https://yuhtube-bucket.s3.amazonaws.com/album-seeds/loveisalive-album.jpg",
+        track_number=4,
+        album_id=5
+    ),
+    Song( #53
+        title='World On Fire',
+        user_id=1,
+        artist_id=5,
+        song_url="https://yuhtube-bucket.s3.amazonaws.com/songs-seeds/Louis+The+Child+-+World+On+Fire+feat.+Ashe+(Cover+Art).mp3",
+        image_url="https://yuhtube-bucket.s3.amazonaws.com/album-seeds/loveisalive-album.jpg",
+        track_number=5,
+        album_id=5
+    ),
+    Song( #54
+        title='Love Is Alive',
+        user_id=1,
+        artist_id=5,
+        song_url="https://yuhtube-bucket.s3.amazonaws.com/songs-seeds/Louis+The+Child+-+Love+Is+Alive+ft.+Elohim.mp3",
+        image_url="https://yuhtube-bucket.s3.amazonaws.com/album-seeds/loveisalive-album.jpg",
+        track_number=6,
+        album_id=5
+    ),
+    Song( #55
+        title='',
+        user_id=1,
+        artist_id=6,
+        song_url="",
+        image_url="https://yuhtube-bucket.s3.amazonaws.com/album-seeds/cartelii-album.jpg",
+        track_number=1,
+        album_id=6
+    ),
+    Song( #56
+        title='',
+        user_id=1,
+        artist_id=6,
+        song_url="",
+        image_url="https://yuhtube-bucket.s3.amazonaws.com/album-seeds/cartelii-album.jpg",
+        track_number=1,
+        album_id=6
+    ),
+    Song( #57
+        title='',
+        user_id=1,
+        artist_id=6,
+        song_url="",
+        image_url="https://yuhtube-bucket.s3.amazonaws.com/album-seeds/cartelii-album.jpg",
+        track_number=1,
+        album_id=6
+    ),
+    Song( #58
+        title='',
+        user_id=1,
+        artist_id=6,
+        song_url="",
+        image_url="https://yuhtube-bucket.s3.amazonaws.com/album-seeds/cartelii-album.jpg",
+        track_number=1,
+        album_id=6
+    ),
+    Song( #59
+        title='',
+        user_id=1,
+        artist_id=6,
+        song_url="",
+        image_url="https://yuhtube-bucket.s3.amazonaws.com/album-seeds/cartelii-album.jpg",
+        track_number=1,
+        album_id=6
+    ),
+    Song( #60
+        title='',
+        user_id=1,
+        artist_id=6,
+        song_url="",
+        image_url="https://yuhtube-bucket.s3.amazonaws.com/album-seeds/cartelii-album.jpg",
+        track_number=1,
+        album_id=6
+    ),
+    Song( #54
+        title='',
+        user_id=1,
+        artist_id=6,
+        song_url="",
+        image_url="https://yuhtube-bucket.s3.amazonaws.com/album-seeds/cartelii-album.jpg",
+        track_number=1,
+        album_id=6
+    ),
 ]
 
 def seed_songs():
