@@ -19,7 +19,7 @@ songs = [
         track_number=2,
         album_id=1
     ),
-     Song( #3
+    Song( #3
         title='Every Time (feat. So Below)',
         user_id=1,
         artist_id=1,
@@ -28,7 +28,7 @@ songs = [
         track_number=3,
         album_id=1
     ),
-     Song( #4
+    Song( #4
         title='Between (feat. Eli Teplin)',
         user_id=1,
         artist_id=1,
@@ -37,7 +37,7 @@ songs = [
         track_number=4,
         album_id=1
     ),
-       Song( #5
+    Song( #5
         title='Someday',
         user_id=1,
         artist_id=1,
@@ -46,7 +46,7 @@ songs = [
         track_number=5,
         album_id=1
     ),
-       Song( #6
+    Song( #6
         title='Miss You (feat. GG Magree)',
         user_id=1,
         artist_id=1,
@@ -55,7 +55,7 @@ songs = [
         track_number=6,
         album_id=1
     ),
-       Song( #7
+    Song( #7
         title='Beyond The Veil (feat. JT Roach)',
         user_id=1,
         artist_id=1,
@@ -64,7 +64,7 @@ songs = [
         track_number=7,
         album_id=1
     ),
-       Song( #8
+    Song( #8
         title='Before You (feat. Dia Frampton)',
         user_id=1,
         artist_id=1,
@@ -73,7 +73,7 @@ songs = [
         track_number=8,
         album_id=1
     ),
-       Song( #9
+    Song( #9
         title='Never Learn (feat. Mija)',
         user_id=1,
         artist_id=1,
@@ -82,7 +82,7 @@ songs = [
         track_number=9,
         album_id=1
     ),
-       Song( #10
+    Song( #10
         title='Stop Thinking (feat. Lights)',
         user_id=1,
         artist_id=1,
@@ -91,7 +91,7 @@ songs = [
         track_number=10,
         album_id=1
     ),
-       Song( #11
+    Song( #11
         title='Falling Fast (feat. Dia Frampton)',
         user_id=1,
         artist_id=1,
@@ -100,7 +100,7 @@ songs = [
         track_number=11,
         album_id=1
     ),
-       Song( #12
+    Song( #12
         title='Henosis',
         user_id=1,
         artist_id=1,
@@ -109,7 +109,7 @@ songs = [
         track_number=12,
         album_id=1
     ),
-       Song( #13
+    Song( #13
         title='Alive (feat. Opposite the Other)',
         user_id=1,
         artist_id=1,
@@ -118,7 +118,7 @@ songs = [
         track_number=13,
         album_id=1
     ),
-       Song( #14
+    Song( #14
         title='Brightest Light (feat. Dotter)',
         user_id=1,
         artist_id=1,
@@ -126,6 +126,186 @@ songs = [
         image_url='https://yuhtube-bucket.s3.amazonaws.com/album-seeds/beyondtheveil-album.jpg',
         track_number=14,
         album_id=1
+    ),
+    Song( #15
+        title='Reverie',
+        user_id=1,
+        artist_id=2,
+        song_url='https://yuhtube-bucket.s3.amazonaws.com/songs-seeds/Illenium_Reverie.mp3',
+        image_url='https://yuhtube-bucket.s3.amazonaws.com/album-seeds/ashes-album.jpg',
+        track_number=1,
+        album_id=2
+    ),
+    Song( #16
+        title='Fortress',
+        user_id=1,
+        artist_id=2,
+        song_url='https://yuhtube-bucket.s3.amazonaws.com/songs-seeds/Illenium_Fortress.mp3',
+        image_url='https://yuhtube-bucket.s3.amazonaws.com/album-seeds/ashes-album.jpg',
+        track_number=2,
+        album_id=2
+    ),
+    Song( #17
+        title='With You',
+        user_id=1,
+        artist_id=2,
+        song_url='https://yuhtube-bucket.s3.amazonaws.com/songs-seeds/Illenium_With_You.mp3',
+        image_url='https://yuhtube-bucket.s3.amazonaws.com/album-seeds/ashes-album.jpg',
+        track_number=3,
+        album_id=2
+    ),
+    Song( #18
+        title='Sleepwalker',
+        user_id=1,
+        artist_id=2,
+        song_url='https://yuhtube-bucket.s3.amazonaws.com/songs-seeds/Illenium_Sleepwalker.mp3',
+        image_url='https://yuhtube-bucket.s3.amazonaws.com/album-seeds/ashes-album.jpg',
+        track_number=4,
+        album_id=2
+    ),
+    Song( #19
+        title="It's All on U",
+        user_id=1,
+        artist_id=2,
+        song_url='https://yuhtube-bucket.s3.amazonaws.com/songs-seeds/Illenium_It%E2%80%99s_All_on_U.mp3',
+        image_url='https://yuhtube-bucket.s3.amazonaws.com/album-seeds/ashes-album.jpg',
+        track_number=5,
+        album_id=2
+    ),
+    Song( #20
+        title='Spirals',
+        user_id=1,
+        artist_id=2,
+        song_url='https://yuhtube-bucket.s3.amazonaws.com/songs-seeds/Illenium_Spirals.mp3',
+        image_url='https://yuhtube-bucket.s3.amazonaws.com/album-seeds/ashes-album.jpg',
+        track_number=6,
+        album_id=2
+    ),
+    Song( #21
+        title='Without You',
+        user_id=1,
+        artist_id=2,
+        song_url='https://yuhtube-bucket.s3.amazonaws.com/songs-seeds/Illenium_Without_You.mp3',
+        image_url='https://yuhtube-bucket.s3.amazonaws.com/album-seeds/ashes-album.jpg',
+        track_number=7,
+        album_id=2
+    ),
+    Song( #22
+        title='Only One',
+        user_id=1,
+        artist_id=2,
+        song_url='https://yuhtube-bucket.s3.amazonaws.com/songs-seeds/Illenium_Only_One.mp3',
+        image_url='https://yuhtube-bucket.s3.amazonaws.com/album-seeds/ashes-album.jpg',
+        track_number=8,
+        album_id=2
+    ),
+    Song( #23
+        title="I'll Be Your Reason",
+        user_id=1,
+        artist_id=2,
+        song_url='https://yuhtube-bucket.s3.amazonaws.com/songs-seeds/Illenium_I_ll_Be_Your_Reason.mp3',
+        image_url='https://yuhtube-bucket.s3.amazonaws.com/album-seeds/ashes-album.jpg',
+        track_number=9,
+        album_id=2
+    ),
+    Song( #24
+        title='Afterlife',
+        user_id=1,
+        artist_id=2,
+        song_url='https://yuhtube-bucket.s3.amazonaws.com/songs-seeds/Illenium_Afterlife.mp3',
+        image_url='https://yuhtube-bucket.s3.amazonaws.com/album-seeds/ashes-album.jpg',
+        track_number=10,
+        album_id=2
+    ),
+    Song( #25
+        title='',
+        user_id=1,
+        artist_id=3,
+        song_url='',
+        image_url='',
+        track_number=1,
+        album_id=3
+    ),
+    Song( #26
+        title='',
+        user_id=1,
+        artist_id=3,
+        song_url='',
+        image_url='',
+        track_number=2,
+        album_id=3
+    ),
+    Song( #27
+        title='',
+        user_id=1,
+        artist_id=3,
+        song_url='',
+        image_url='',
+        track_number=3,
+        album_id=3
+    ),
+    Song( #25
+        title='',
+        user_id=1,
+        artist_id=3,
+        song_url='',
+        image_url='',
+        track_number=1,
+        album_id=3
+    ),
+    Song( #25
+        title='',
+        user_id=1,
+        artist_id=3,
+        song_url='',
+        image_url='',
+        track_number=1,
+        album_id=3
+    ),
+    Song( #25
+        title='',
+        user_id=1,
+        artist_id=3,
+        song_url='',
+        image_url='',
+        track_number=1,
+        album_id=3
+    ),
+    Song( #25
+        title='',
+        user_id=1,
+        artist_id=3,
+        song_url='',
+        image_url='',
+        track_number=1,
+        album_id=3
+    ),
+    Song( #25
+        title='',
+        user_id=1,
+        artist_id=3,
+        song_url='',
+        image_url='',
+        track_number=1,
+        album_id=3
+    ),
+    Song( #25
+        title='',
+        user_id=1,
+        artist_id=3,
+        song_url='',
+        image_url='',
+        track_number=1,
+        album_id=3
+    ),
+    Song( #25
+        title='',
+        user_id=1,
+        artist_id=3,
+        song_url='',
+        image_url='',
+        track_number=1,
+        album_id=3
     ),
 ]
 
