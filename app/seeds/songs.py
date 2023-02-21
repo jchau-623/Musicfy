@@ -221,7 +221,7 @@ songs = [
         title='Alive',
         user_id=1,
         artist_id=3,
-        song_url='',
+        song_url='https://yuhtube-bucket.s3.amazonaws.com/songs-seeds/What+So+Not+-++Alive++(Official+Audio).mp3',
         image_url='https://yuhtube-bucket.s3.amazonaws.com/album-seeds/anomaly-album.jpg',
         track_number=1,
         album_id=3
@@ -230,7 +230,7 @@ songs = [
         title='Anomaly',
         user_id=1,
         artist_id=3,
-        song_url='',
+        song_url='https://yuhtube-bucket.s3.amazonaws.com/songs-seeds/What+So+Not+-++Anomaly+(feat.+AY+AY)++(Official+Audio).mp3',
         image_url='https://yuhtube-bucket.s3.amazonaws.com/album-seeds/anomaly-album.jpg',
         track_number=2,
         album_id=3
@@ -239,82 +239,199 @@ songs = [
         title='Mr Regular',
         user_id=1,
         artist_id=3,
-        song_url='',
+        song_url='https://yuhtube-bucket.s3.amazonaws.com/songs-seeds/What+So+Not+-++Mr+Regular+(feat.+Oliver+Tree%2C+Killer+Mike)++(Official+Audio).mp3',
         image_url='https://yuhtube-bucket.s3.amazonaws.com/album-seeds/anomaly-album.jpg',
         track_number=3,
         album_id=3
     ),
-    Song( #25
+    Song( #28
         title='The Change',
         user_id=1,
         artist_id=3,
-        song_url='',
+        song_url='https://yuhtube-bucket.s3.amazonaws.com/songs-seeds/What+So+Not+-+The+Change+(Feat.+DMA+S).mp3',
         image_url='https://yuhtube-bucket.s3.amazonaws.com/album-seeds/anomaly-album.jpg',
         track_number=4,
         album_id=3
     ),
-    Song( #25
+    Song( #29
         title='Halifax',
         user_id=1,
         artist_id=3,
-        song_url='',
+        song_url="https://yuhtube-bucket.s3.amazonaws.com/songs-seeds/What+So+Not+-+'Halifax+(feat.+ZOID+LAND%2C+Phi11a%2C+Tek+Genesis)'+(Official+Audio).mp3",
         image_url='https://yuhtube-bucket.s3.amazonaws.com/album-seeds/anomaly-album.jpg',
         track_number=5,
         album_id=3
     ),
-    Song( #25
+    Song( #30
         title='On Air',
         user_id=1,
         artist_id=3,
-        song_url='',
+        song_url="https://yuhtube-bucket.s3.amazonaws.com/songs-seeds/What+So+Not+-+'On+Air+(feat.+Louis+The+Child%2C+Captain+Cuts%2C+JRM)'++(Official+Audio).mp3",
         image_url='https://yuhtube-bucket.s3.amazonaws.com/album-seeds/anomaly-album.jpg',
         track_number=6,
         album_id=3
     ),
-    Song( #25
+    Song( #31
         title="Messin' Me up",
         user_id=1,
         artist_id=3,
-        song_url='',
+        song_url="https://yuhtube-bucket.s3.amazonaws.com/songs-seeds/What+So+Not+-+Messin'+Me+Up+(feat.+EVAN+GIIA)+%5BOfficial+Music+Video%5D.mp3",
         image_url='https://yuhtube-bucket.s3.amazonaws.com/album-seeds/anomaly-album.jpg',
         track_number=7,
         album_id=3
     ),
-    Song( #25
+    Song( #32
         title='Bad Piano',
         user_id=1,
         artist_id=3,
-        song_url='',
-        image_url='',
+        song_url="https://yuhtube-bucket.s3.amazonaws.com/songs-seeds/What+So+Not+-+'Bad+Piano+(feat.+Body+Ocean%2C+Lucy+Lucy)'+(Official+Audio).mp3",
+        image_url='https://yuhtube-bucket.s3.amazonaws.com/album-seeds/anomaly-album.jpg',
         track_number=8,
         album_id=3
     ),
-    Song( #25
+    Song( #33
         title='Mercy (2022 Edit)',
         user_id=1,
         artist_id=3,
-        song_url='',
-        image_url='',
+        song_url="https://yuhtube-bucket.s3.amazonaws.com/songs-seeds/What+So+Not+-+'Mercy+(2022+Edit+feat.+M%C3%98)'+(Official+Audio).mp3",
+        image_url='https://yuhtube-bucket.s3.amazonaws.com/album-seeds/anomaly-album.jpg',
         track_number=9,
         album_id=3
     ),
-    Song( #25
+    Song( #34
         title='Black Shallow',
         user_id=1,
         artist_id=3,
-        song_url='',
-        image_url='',
+        song_url="https://yuhtube-bucket.s3.amazonaws.com/songs-seeds/What+So+Not+-+'Black+Shallow+(feat.+Enschway)'+(Official+Audio).mp3",
+        image_url='https://yuhtube-bucket.s3.amazonaws.com/album-seeds/anomaly-album.jpg',
         track_number=10,
         album_id=3
     ),
-    Song( #25
+    Song( #35
         title='As One',
         user_id=1,
         artist_id=3,
-        song_url='',
-        image_url='',
+        song_url="https://yuhtube-bucket.s3.amazonaws.com/songs-seeds/What+So+Not+-+'As+One+(feat.+Herizen)'++(Official+Audio).mp3",
+        image_url="https://yuhtube-bucket.s3.amazonaws.com/album-seeds/anomaly-album.jpg",
         track_number=11,
         album_id=3
+    ),
+    Song( #36
+        title='This Version Of You (feat. Julianna Barwick)',
+        user_id=1,
+        artist_id=4,
+        song_url="https://yuhtube-bucket.s3.amazonaws.com/songs-seeds/ODESZA+-+This+Version+Of+You+(feat.+Julianna+Barwick)+-+Official+Audio.mp3",
+        image_url="https://yuhtube-bucket.s3.amazonaws.com/album-seeds/thelastgoodbye-album.jpg",
+        track_number=1,
+        album_id=4
+    ),
+    Song( #37
+        title='Wide Awake (feat. Charlie Houston)',
+        user_id=1,
+        artist_id=4,
+        song_url="https://yuhtube-bucket.s3.amazonaws.com/songs-seeds/ODESZA+-+Wide+Awake+(feat.+Charlie+Houston)+-+Official+Audio.mp3",
+        image_url="https://yuhtube-bucket.s3.amazonaws.com/album-seeds/thelastgoodbye-album.jpg",
+        track_number=2,
+        album_id=4
+    ),
+    Song( #38
+        title='Love Letter (feat. The Knocks)',
+        user_id=1,
+        artist_id=4,
+        song_url="https://yuhtube-bucket.s3.amazonaws.com/songs-seeds/ODESZA+-+Love+Letter+(feat.+The+Knocks)+-+Official+Audio.mp3",
+        image_url="https://yuhtube-bucket.s3.amazonaws.com/album-seeds/thelastgoodbye-album.jpg",
+        track_number=3,
+        album_id=4
+    ),
+    Song( #39
+        title='Behind The Sun',
+        user_id=1,
+        artist_id=4,
+        song_url="https://yuhtube-bucket.s3.amazonaws.com/songs-seeds/ODESZA+-+Behind+The+Sun+-+Official+Video.mp3",
+        image_url="https://yuhtube-bucket.s3.amazonaws.com/album-seeds/thelastgoodbye-album.jpg",
+        track_number=4,
+        album_id=4
+    ),
+    Song( #40
+        title='Forgive Me (feat. Izy Bizu)',
+        user_id=1,
+        artist_id=4,
+        song_url="https://yuhtube-bucket.s3.amazonaws.com/songs-seeds/ODESZA+-+Forgive+Me+(feat.+Izzy+Bizu)+-+Official+Audio.mp3",
+        image_url="https://yuhtube-bucket.s3.amazonaws.com/album-seeds/thelastgoodbye-album.jpg",
+        track_number=5,
+        album_id=4
+    ),
+    Song( #41
+        title='North Garden',
+        user_id=1,
+        artist_id=4,
+        song_url="https://yuhtube-bucket.s3.amazonaws.com/songs-seeds/ODESZA+-+North+Garden+-+Official+Audio.mp3",
+        image_url="https://yuhtube-bucket.s3.amazonaws.com/album-seeds/thelastgoodbye-album.jpg",
+        track_number=6,
+        album_id=4
+    ),
+    Song( #42
+        title='Better Now (feat. MARO)',
+        user_id=1,
+        artist_id=4,
+        song_url="https://yuhtube-bucket.s3.amazonaws.com/songs-seeds/ODESZA+-+Better+Now+(feat.+MARO)+-+Official+Video.mp3",
+        image_url="https://yuhtube-bucket.s3.amazonaws.com/album-seeds/thelastgoodbye-album.jpg",
+        track_number=7,
+        album_id=4
+    ),
+    Song( #43
+        title='The Last Goodbye (feat. Bettye LaVette)',
+        user_id=1,
+        artist_id=4,
+        song_url="",
+        image_url="https://yuhtube-bucket.s3.amazonaws.com/album-seeds/thelastgoodbye-album.jpg",
+        track_number=8,
+        album_id=4
+    ),
+    Song( #44
+        title='All My Life',
+        user_id=1,
+        artist_id=4,
+        song_url="https://yuhtube-bucket.s3.amazonaws.com/songs-seeds/ODESZA+-+The+Last+Goodbye+(feat.+Bettye+LaVette)+-+Official+Visualizer.mp3",
+        image_url="https://yuhtube-bucket.s3.amazonaws.com/album-seeds/thelastgoodbye-album.jpg",
+        track_number=9,
+        album_id=4
+    ),
+    Song( #45
+        title='Equal (feat. Låpsley)',
+        user_id=1,
+        artist_id=4,
+        song_url="https://yuhtube-bucket.s3.amazonaws.com/songs-seeds/ODESZA+-+Equal+(feat.+L%C3%A5psley)+-+Official+Audio.mp3",
+        image_url="https://yuhtube-bucket.s3.amazonaws.com/album-seeds/thelastgoodbye-album.jpg",
+        track_number=10,
+        album_id=4
+    ),
+    Song( #46
+        title='Healing Grid',
+        user_id=1,
+        artist_id=4,
+        song_url="https://yuhtube-bucket.s3.amazonaws.com/songs-seeds/ODESZA+-+Healing+Grid+-+Official+Audio.mp3",
+        image_url="https://yuhtube-bucket.s3.amazonaws.com/album-seeds/thelastgoodbye-album.jpg",
+        track_number=11,
+        album_id=4
+    ),
+    Song( #47
+        title="I Can't Sleep",
+        user_id=1,
+        artist_id=4,
+        song_url="https://yuhtube-bucket.s3.amazonaws.com/songs-seeds/ODESZA+-+I+Cant+Sleep+-+Official+Audio.mp3",
+        image_url="https://yuhtube-bucket.s3.amazonaws.com/album-seeds/thelastgoodbye-album.jpg",
+        track_number=12,
+        album_id=4
+    ),
+    Song( #48
+        title='Light Of Day (feat. Ólafur Arnalds)',
+        user_id=1,
+        artist_id=4,
+        song_url="https://yuhtube-bucket.s3.amazonaws.com/songs-seeds/ODESZA+-+Light+Of+Day+(feat.+%C3%93lafur+Arnalds)+-+Official+Video.mp3",
+        image_url="https://yuhtube-bucket.s3.amazonaws.com/album-seeds/thelastgoodbye-album.jpg",
+        track_number=13,
+        album_id=4
     ),
 ]
 
