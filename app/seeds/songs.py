@@ -218,93 +218,102 @@ songs = [
         album_id=2
     ),
     Song( #25
-        title='',
+        title='Alive',
         user_id=1,
         artist_id=3,
         song_url='',
-        image_url='',
+        image_url='https://yuhtube-bucket.s3.amazonaws.com/album-seeds/anomaly-album.jpg',
         track_number=1,
         album_id=3
     ),
     Song( #26
-        title='',
+        title='Anomaly',
         user_id=1,
         artist_id=3,
         song_url='',
-        image_url='',
+        image_url='https://yuhtube-bucket.s3.amazonaws.com/album-seeds/anomaly-album.jpg',
         track_number=2,
         album_id=3
     ),
     Song( #27
-        title='',
+        title='Mr Regular',
         user_id=1,
         artist_id=3,
         song_url='',
-        image_url='',
+        image_url='https://yuhtube-bucket.s3.amazonaws.com/album-seeds/anomaly-album.jpg',
         track_number=3,
         album_id=3
     ),
     Song( #25
-        title='',
+        title='The Change',
         user_id=1,
         artist_id=3,
         song_url='',
-        image_url='',
-        track_number=1,
+        image_url='https://yuhtube-bucket.s3.amazonaws.com/album-seeds/anomaly-album.jpg',
+        track_number=4,
         album_id=3
     ),
     Song( #25
-        title='',
+        title='Halifax',
         user_id=1,
         artist_id=3,
         song_url='',
-        image_url='',
-        track_number=1,
+        image_url='https://yuhtube-bucket.s3.amazonaws.com/album-seeds/anomaly-album.jpg',
+        track_number=5,
         album_id=3
     ),
     Song( #25
-        title='',
+        title='On Air',
         user_id=1,
         artist_id=3,
         song_url='',
-        image_url='',
-        track_number=1,
+        image_url='https://yuhtube-bucket.s3.amazonaws.com/album-seeds/anomaly-album.jpg',
+        track_number=6,
         album_id=3
     ),
     Song( #25
-        title='',
+        title="Messin' Me up",
         user_id=1,
         artist_id=3,
         song_url='',
-        image_url='',
-        track_number=1,
+        image_url='https://yuhtube-bucket.s3.amazonaws.com/album-seeds/anomaly-album.jpg',
+        track_number=7,
         album_id=3
     ),
     Song( #25
-        title='',
+        title='Bad Piano',
         user_id=1,
         artist_id=3,
         song_url='',
         image_url='',
-        track_number=1,
+        track_number=8,
         album_id=3
     ),
     Song( #25
-        title='',
+        title='Mercy (2022 Edit)',
         user_id=1,
         artist_id=3,
         song_url='',
         image_url='',
-        track_number=1,
+        track_number=9,
         album_id=3
     ),
     Song( #25
-        title='',
+        title='Black Shallow',
         user_id=1,
         artist_id=3,
         song_url='',
         image_url='',
-        track_number=1,
+        track_number=10,
+        album_id=3
+    ),
+    Song( #25
+        title='As One',
+        user_id=1,
+        artist_id=3,
+        song_url='',
+        image_url='',
+        track_number=11,
         album_id=3
     ),
 ]
