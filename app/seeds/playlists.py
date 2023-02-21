@@ -5,22 +5,18 @@ playlists = [
     Playlist(#1
         title='Trap Mix',
         user_id=1,
-        image_url='https://yuhtube-bucket.s3.amazonaws.com/playlist-seeds/seven-lions.png'
     ),
     Playlist(#2
         title='Sadboi Mix',
         user_id=1,
-        image_url='https://yuhtube-bucket.s3.amazonaws.com/playlist-seeds/seven-lions.png'
     ),
     Playlist(#3
-        title='What So Not Mix',
+        title='Gym Mix',
         user_id=1,
-        image_url='https://yuhtube-bucket.s3.amazonaws.com/playlist-seeds/whatsonot.png'
     ),
     Playlist(#4
         title='Odesza Mix',
         user_id=1,
-        image_url='https://yuhtube-bucket.s3.amazonaws.com/playlist-seeds/odesza.png'
     ),
 ]
 
