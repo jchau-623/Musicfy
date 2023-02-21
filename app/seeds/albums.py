@@ -3,7 +3,7 @@ from app.seeds.songs import songs
 
 albums = [
     Album( #1
-        title='Beyond The Veil (Deluxe)',
+        title='Beyond The Veil(Deluxe)',
         artist_id=1,
         user_id=1,
         image_url='https://yuhtube-bucket.s3.amazonaws.com/album-seeds/beyondtheveil-album.jpg'
