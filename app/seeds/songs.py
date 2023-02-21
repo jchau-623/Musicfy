@@ -488,66 +488,65 @@ songs = [
         album_id=5
     ),
     Song( #55
-        title='',
+        title='MONTA',
         user_id=1,
         artist_id=6,
-        song_url="",
+        song_url="https://yuhtube-bucket.s3.amazonaws.com/songs-seeds/Boombox+Cartel+-+MONTA+(Official+Audio).mp3",
         image_url="https://yuhtube-bucket.s3.amazonaws.com/album-seeds/cartelii-album.jpg",
         track_number=1,
         album_id=6
     ),
     Song( #56
-        title='',
+        title='Máquina',
         user_id=1,
         artist_id=6,
-        song_url="",
+        song_url="https://yuhtube-bucket.s3.amazonaws.com/songs-seeds/Boombox+Cartel+-+M%C3%A1quina+(Official+Audio).mp3",
         image_url="https://yuhtube-bucket.s3.amazonaws.com/album-seeds/cartelii-album.jpg",
-        track_number=1,
+        track_number=2,
         album_id=6
     ),
     Song( #57
-        title='',
+        title='Shadow (feat. Calivania)',
         user_id=1,
         artist_id=6,
-        song_url="",
+        song_url="https://yuhtube-bucket.s3.amazonaws.com/songs-seeds/Boombox+Cartel+x+Moody+Good+-+Shadow+(feat.+Calivania)+%5BOfficial+Music+Video%5D.mp3",
         image_url="https://yuhtube-bucket.s3.amazonaws.com/album-seeds/cartelii-album.jpg",
-        track_number=1,
+        track_number=3,
         album_id=6
     ),
     Song( #58
-        title='',
+        title='Rock Dem',
         user_id=1,
         artist_id=6,
-        song_url="",
+        song_url="https://yuhtube-bucket.s3.amazonaws.com/songs-seeds/Boombox+Cartel+-+Rock+Dem+(Official+Audio).mp3",
         image_url="https://yuhtube-bucket.s3.amazonaws.com/album-seeds/cartelii-album.jpg",
-        track_number=1,
+        track_number=4,
         album_id=6
     ),
     Song( #59
-        title='',
-        user_id=1,
+        title='Fatal Attraction (feat. Reese LAFLARE)',
         artist_id=6,
-        song_url="",
+        song_url="https://yuhtube-bucket.s3.amazonaws.com/songs-seeds/Boombox+Cartel+-+Fatal+Attraction+(feat.+Reese+LAFLARE)+%5BOfficial+Audio%5D.mp3",
         image_url="https://yuhtube-bucket.s3.amazonaws.com/album-seeds/cartelii-album.jpg",
-        track_number=1,
+        track_number=5,
         album_id=6
     ),
     Song( #60
-        title='',
+        title='Reaper (feat. JID)',
         user_id=1,
         artist_id=6,
-        song_url="",
+        song_url="https://yuhtube-bucket.s3.amazonaws.com/songs-seeds/Boombox+Cartel+-+Reaper+(feat.+JID)+%5BOfficial+Audio%5D.mp3",
         image_url="https://yuhtube-bucket.s3.amazonaws.com/album-seeds/cartelii-album.jpg",
-        track_number=1,
+        track_number=6,
         album_id=6
     ),
-    Song( #54
-        title='',
+    Song( #61
+        title='Veneno',
         user_id=1,
         artist_id=6,
-        song_url="",
+        song_url="https://yuhtube-bucket.s3.amazonaws.com/songs-seeds/Boombox+Cartel+-+Veneno+(Official+Audio).mp3",
         image_url="https://yuhtube-bucket.s3.amazonaws.com/album-seeds/cartelii-album.jpg",
-        track_number=1,
+        track_number=7,
         album_id=6
     ),
 ]
