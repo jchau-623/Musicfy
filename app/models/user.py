@@ -26,8 +26,23 @@ class User(db.Model, UserMixin):
     def check_password(self, password):
         return check_password_hash(self.password, password)
 
-    def to_dict(self):
+    def s_to_dict(self):
         return {
             'id': self.id,
             'username': self.username
+        }
+
+    def u_to_dict(self):
+        return {
+            'id': self.id,
+            'username': self.username,
+            'email': self.email,
+            'playlists': [playlist.to_dict() for playlist in self.playlists]
+        }
+
+    def to_dict(self):
+        return {
+            'id': self.id,
+            'username': self.username,
+            'email': self.email,
         }

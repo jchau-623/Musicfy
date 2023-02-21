@@ -3,22 +3,22 @@ from .playlist_songs import add_songs_to_playlist
 
 playlists = [
     Playlist(#1
-        title='Seven Lions',
+        title='Trap Mix',
         user_id=1,
         image_url='https://yuhtube-bucket.s3.amazonaws.com/playlist-seeds/seven-lions.png'
     ),
     Playlist(#2
-        title='Illenium',
+        title='Sadboi Mix',
         user_id=1,
         image_url='https://yuhtube-bucket.s3.amazonaws.com/playlist-seeds/seven-lions.png'
     ),
     Playlist(#3
-        title='What So Not',
+        title='What So Not Mix',
         user_id=1,
         image_url='https://yuhtube-bucket.s3.amazonaws.com/playlist-seeds/whatsonot.png'
     ),
     Playlist(#4
-        title='Odesza',
+        title='Odesza Mix',
         user_id=1,
         image_url='https://yuhtube-bucket.s3.amazonaws.com/playlist-seeds/odesza.png'
     ),

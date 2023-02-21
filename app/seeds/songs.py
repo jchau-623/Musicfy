@@ -5,10 +5,8 @@ songs = [
         title='Long Walk, Short Dock',
         user_id=1,
         artist_id=1,
-        song_url='https://musicfy-bucket.s3.amazonaws.com/song-seeds/01+Long+Walk%2C+Short+Dock+(ft+Dillan+Witherow).mp3',
-        image_url='https://cofi-bucket.s3.amazonaws.com/art-seeds/afterhours-art.png',
-        track_number=1,
-        album_id=1
+        song_url='',
+        image_url='',
     ),
 ]
 
