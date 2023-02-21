@@ -549,6 +549,114 @@ songs = [
         track_number=7,
         album_id=6
     ),
+    Song( #62
+        title='GET IT',
+        user_id=1,
+        artist_id=7,
+        song_url="https://yuhtube-bucket.s3.amazonaws.com/songs-seeds/keshi+-+GET+IT.mp3",
+        image_url="https://yuhtube-bucket.s3.amazonaws.com/album-seeds/keshi-album.png",
+        track_number=1,
+        album_id=7
+    ),
+    Song( #63
+        title='SOMEBODY',
+        user_id=1,
+        artist_id=7,
+        song_url="https://yuhtube-bucket.s3.amazonaws.com/songs-seeds/keshi+-+SOMEBODY.mp3",
+        image_url="https://yuhtube-bucket.s3.amazonaws.com/album-seeds/keshi-album.png",
+        track_number=2,
+        album_id=7
+    ),
+    Song( #64
+        title='WESTSIDE',
+        user_id=1,
+        artist_id=7,
+        song_url="https://yuhtube-bucket.s3.amazonaws.com/songs-seeds/keshi+-+WESTSIDE.mp3",
+        image_url="https://yuhtube-bucket.s3.amazonaws.com/album-seeds/keshi-album.png",
+        track_number=3,
+        album_id=7
+    ),
+    Song( #65
+        title='TOUCH',
+        user_id=1,
+        artist_id=7,
+        song_url="https://yuhtube-bucket.s3.amazonaws.com/songs-seeds/keshi+-+TOUCH+(Official+Audio).mp3",
+        image_url="https://yuhtube-bucket.s3.amazonaws.com/album-seeds/keshi-album.png",
+        track_number=4,
+        album_id=7
+    ),
+    Song( #66
+        title='MILLI',
+        user_id=1,
+        artist_id=7,
+        song_url="https://yuhtube-bucket.s3.amazonaws.com/songs-seeds/keshi+-+MILLI+(Visualizer).mp3",
+        image_url="https://yuhtube-bucket.s3.amazonaws.com/album-seeds/keshi-album.png",
+        track_number=5,
+        album_id=7
+    ),
+    Song( #67
+        title='PÈRE',
+        user_id=1,
+        artist_id=7,
+        song_url="https://yuhtube-bucket.s3.amazonaws.com/songs-seeds/keshi+-+P%C3%88RE+(Visualizer).mp3",
+        image_url="https://yuhtube-bucket.s3.amazonaws.com/album-seeds/keshi-album.png",
+        track_number=6,
+        album_id=7
+    ),
+    Song( #68
+        title='HELL/HEAVEN',
+        user_id=1,
+        artist_id=7,
+        song_url="https://yuhtube-bucket.s3.amazonaws.com/songs-seeds/keshi+-+HELLHEAVEN+(Visualizer).mp3",
+        image_url="https://yuhtube-bucket.s3.amazonaws.com/album-seeds/keshi-album.png",
+        track_number=7,
+        album_id=7
+    ),
+    Song( #69
+        title='ANGOSTURA',
+        user_id=1,
+        artist_id=7,
+        song_url="https://yuhtube-bucket.s3.amazonaws.com/songs-seeds/ANGOSTURA.mp3",
+        image_url="https://yuhtube-bucket.s3.amazonaws.com/album-seeds/keshi-album.png",
+        track_number=8,
+        album_id=7
+    ),
+    Song( #70
+        title='UNDERSTAND',
+        user_id=1,
+        artist_id=7,
+        song_url="https://yuhtube-bucket.s3.amazonaws.com/songs-seeds/keshi+-+UNDERSTAND+(Visualizer).mp3",
+        image_url="https://yuhtube-bucket.s3.amazonaws.com/album-seeds/keshi-album.png",
+        track_number=9,
+        album_id=7
+    ),
+    Song( #71
+        title='LIMBO',
+        user_id=1,
+        artist_id=7,
+        song_url="https://yuhtube-bucket.s3.amazonaws.com/songs-seeds/keshi+-+LIMBO+(Visualizer).mp3",
+        image_url="https://yuhtube-bucket.s3.amazonaws.com/album-seeds/keshi-album.png",
+        track_number=10,
+        album_id=7
+    ),
+    Song( #72
+        title='ANGEL',
+        user_id=1,
+        artist_id=7,
+        song_url="https://yuhtube-bucket.s3.amazonaws.com/songs-seeds/keshi+-+ANGEL+(Visualizer).mp3",
+        image_url="https://yuhtube-bucket.s3.amazonaws.com/album-seeds/keshi-album.png",
+        track_number=11,
+        album_id=7
+    ),
+    Song( #73
+        title='GABRIEL',
+        user_id=1,
+        artist_id=7,
+        song_url="https://yuhtube-bucket.s3.amazonaws.com/songs-seeds/keshi+-+GABRIEL+(Visualizer).mp3",
+        image_url="https://yuhtube-bucket.s3.amazonaws.com/album-seeds/keshi-album.png",
+        track_number=12,
+        album_id=7
+    ),
 ]
 
 def seed_songs():
