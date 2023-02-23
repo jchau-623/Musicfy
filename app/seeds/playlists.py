@@ -14,10 +14,6 @@ playlists = [
         title='Gym Mix',
         user_id=1,
     ),
-    Playlist(#4
-        title='EDM Mix',
-        user_id=1,
-    ),
 ]
 
 def seed_playlists():

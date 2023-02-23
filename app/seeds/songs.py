@@ -769,7 +769,7 @@ songs = [
         title='Bartender',
         user_id=1,
         artist_id=9,
-        song_url="",
+        song_url="https://yuhtube-bucket.s3.amazonaws.com/songs-seeds/Quinn+XCII+-+Bartender.mp3",
         image_url="https://yuhtube-bucket.s3.amazonaws.com/album-seeds/thepeopleschamp-album.jpg",
         track_number=1,
         album_id=9
@@ -778,7 +778,7 @@ songs = [
         title='Common (feat. Big Sean)',
         user_id=1,
         artist_id=9,
-        song_url="",
+        song_url="https://yuhtube-bucket.s3.amazonaws.com/songs-seeds/Quinn+XCII+-+Common.mp3",
         image_url="https://yuhtube-bucket.s3.amazonaws.com/album-seeds/thepeopleschamp-album.jpg",
         track_number=2,
         album_id=9
@@ -787,7 +787,7 @@ songs = [
         title='Black Porsche',
         user_id=1,
         artist_id=9,
-        song_url="",
+        song_url="https://yuhtube-bucket.s3.amazonaws.com/songs-seeds/Quinn+XCII+-+Black+Porsche.mp3",
         image_url="https://yuhtube-bucket.s3.amazonaws.com/album-seeds/thepeopleschamp-album.jpg",
         track_number=3,
         album_id=9
@@ -796,7 +796,7 @@ songs = [
         title="FOMO (Don't Do Cool Shit)",
         user_id=1,
         artist_id=9,
-        song_url="",
+        song_url="https://yuhtube-bucket.s3.amazonaws.com/songs-seeds/Quinn+XCII+-+FOMO.mp3",
         image_url="https://yuhtube-bucket.s3.amazonaws.com/album-seeds/thepeopleschamp-album.jpg",
         track_number=4,
         album_id=9
@@ -805,7 +805,7 @@ songs = [
         title='Let Me Down (with Chelsea Cutler)',
         user_id=1,
         artist_id=9,
-        song_url="",
+        song_url="https://yuhtube-bucket.s3.amazonaws.com/songs-seeds/Quinn+XCII+-+Let+Me+Down.mp3",
         image_url="https://yuhtube-bucket.s3.amazonaws.com/album-seeds/thepeopleschamp-album.jpg",
         track_number=5,
         album_id=9
@@ -814,7 +814,7 @@ songs = [
         title='Good Either Way (With Adrian Cota)',
         user_id=1,
         artist_id=9,
-        song_url="",
+        song_url="https://yuhtube-bucket.s3.amazonaws.com/songs-seeds/Quinn+XCII+-+Good+Either+Way.mp3",
         image_url="https://yuhtube-bucket.s3.amazonaws.com/album-seeds/thepeopleschamp-album.jpg",
         track_number=6,
         album_id=9
@@ -823,7 +823,7 @@ songs = [
         title='Too Late (With AJR)',
         user_id=1,
         artist_id=9,
-        song_url="",
+        song_url="https://yuhtube-bucket.s3.amazonaws.com/songs-seeds/Quinn+XCII+-+Too+Late.mp3",
         image_url="https://yuhtube-bucket.s3.amazonaws.com/album-seeds/thepeopleschamp-album.jpg",
         track_number=7,
         album_id=9
@@ -832,7 +832,7 @@ songs = [
         title='The Lows',
         user_id=1,
         artist_id=9,
-        song_url="",
+        song_url="https://yuhtube-bucket.s3.amazonaws.com/songs-seeds/Quinn+XCII+-+The+Lows.mp3",
         image_url="https://yuhtube-bucket.s3.amazonaws.com/album-seeds/thepeopleschamp-album.jpg",
         track_number=8,
         album_id=9
@@ -841,7 +841,7 @@ songs = [
         title='Being Me',
         user_id=1,
         artist_id=9,
-        song_url="",
+        song_url="https://yuhtube-bucket.s3.amazonaws.com/songs-seeds/Quinn+XCII+-+Being+Me.mp3",
         image_url="https://yuhtube-bucket.s3.amazonaws.com/album-seeds/thepeopleschamp-album.jpg",
         track_number=9,
         album_id=9
@@ -850,7 +850,7 @@ songs = [
         title='Why Do You Talk To Me?',
         user_id=1,
         artist_id=9,
-        song_url="",
+        song_url="https://yuhtube-bucket.s3.amazonaws.com/songs-seeds/Quinn+XCII+-+Why+Do+You+Talk+To+Me.mp3",
         image_url="https://yuhtube-bucket.s3.amazonaws.com/album-seeds/thepeopleschamp-album.jpg",
         track_number=10,
         album_id=9
@@ -859,7 +859,7 @@ songs = [
         title='Backpack',
         user_id=1,
         artist_id=9,
-        song_url="",
+        song_url="https://yuhtube-bucket.s3.amazonaws.com/songs-seeds/Quinn+XCII+-+Backpack.mp3",
         image_url="https://yuhtube-bucket.s3.amazonaws.com/album-seeds/thepeopleschamp-album.jpg",
         track_number=11,
         album_id=9
@@ -868,19 +868,118 @@ songs = [
         title='All That You Need',
         user_id=1,
         artist_id=9,
-        song_url="",
+        song_url="https://yuhtube-bucket.s3.amazonaws.com/songs-seeds/Quinn+XCII+-+All+That+You+Need.mp3",
         image_url="https://yuhtube-bucket.s3.amazonaws.com/album-seeds/thepeopleschamp-album.jpg",
         track_number=12,
         album_id=9
     ),
-    Song( #97
-        title='All That You Need',
+    Song( #98
+        title='Searching (Intro)',
         user_id=1,
-        artist_id=9,
-        song_url="",
-        image_url="https://yuhtube-bucket.s3.amazonaws.com/album-seeds/thepeopleschamp-album.jpg",
+        artist_id=10,
+        song_url="https://yuhtube-bucket.s3.amazonaws.com/songs-seeds/MitiS+-+Searching+(Intro)++Ophelia+Records.mp3",
+        image_url="https://yuhtube-bucket.s3.amazonaws.com/album-seeds/lost-album.jpg",
+        track_number=1,
+        album_id=10
+    ),
+    Song( #99
+        title='Try (feat. RØRY)',
+        user_id=1,
+        artist_id=10,
+        song_url="https://yuhtube-bucket.s3.amazonaws.com/songs-seeds/MitiS+-+Try+feat.+R%C3%98RY+%5BOfficial+Lyric+Video%5D.mp3",
+        image_url="https://yuhtube-bucket.s3.amazonaws.com/album-seeds/lost-album.jpg",
+        track_number=2,
+        album_id=10
+    ),
+    Song( #100
+        title='Homesick (feat. SOUNDR)',
+        user_id=1,
+        artist_id=10,
+        song_url="https://yuhtube-bucket.s3.amazonaws.com/songs-seeds/MitiS+-+Homesick+feat.+SOUNDR+%5BOfficial+Lyric+Video%5D.mp3",
+        image_url="https://yuhtube-bucket.s3.amazonaws.com/album-seeds/lost-album.jpg",
+        track_number=3,
+        album_id=10
+    ),
+    Song( #101
+        title='Hurt (feat. Zack Gray)',
+        user_id=1,
+        artist_id=10,
+        song_url="https://yuhtube-bucket.s3.amazonaws.com/songs-seeds/MitiS+-+Hurt+feat.+Zack+Gray++Ophelia+Records.mp3",
+        image_url="https://yuhtube-bucket.s3.amazonaws.com/album-seeds/lost-album.jpg",
+        track_number=4,
+        album_id=10
+    ),
+    Song( #102
+        title='Without Me (feat. Danni Carra)',
+        user_id=1,
+        artist_id=10,
+        song_url="https://yuhtube-bucket.s3.amazonaws.com/songs-seeds/MitiS+-+Without+Me+(feat.+Danni+Carra)++Ophelia+Records.mp3",
+        image_url="https://yuhtube-bucket.s3.amazonaws.com/album-seeds/lost-album.jpg",
+        track_number=5,
+        album_id=10
+    ),
+    Song( #103
+        title='Bloom',
+        user_id=1,
+        artist_id=10,
+        song_url="https://yuhtube-bucket.s3.amazonaws.com/songs-seeds/MitiS+-+Bloom++Ophelia+Records.mp3",
+        image_url="https://yuhtube-bucket.s3.amazonaws.com/album-seeds/lost-album.jpg",
+        track_number=6,
+        album_id=10
+    ),
+    Song( #104
+        title='Follow You',
+        user_id=1,
+        artist_id=10,
+        song_url="https://yuhtube-bucket.s3.amazonaws.com/songs-seeds/MitiS+x+Rico+%26+Miella+-+Follow+You++Ophelia+Records.mp3",
+        image_url="https://yuhtube-bucket.s3.amazonaws.com/album-seeds/lost-album.jpg",
+        track_number=7,
+        album_id=10
+    ),
+    Song( #105
+        title="When I Say You're Mine (feat. Luma & Notelle)",
+        user_id=1,
+        artist_id=10,
+        song_url="https://yuhtube-bucket.s3.amazonaws.com/songs-seeds/MitiS+-+When+I+Say+You're+Mine+(feat.+Luma+%26+Notelle)++Ophelia+Records.mp3",
+        image_url="https://yuhtube-bucket.s3.amazonaws.com/album-seeds/lost-album.jpg",
+        track_number=8,
+        album_id=10
+    ),
+    Song( #106
+        title='Forgotten',
+        user_id=1,
+        artist_id=10,
+        song_url="https://yuhtube-bucket.s3.amazonaws.com/songs-seeds/MitiS+x+Crystal+Skies+-+Forgotten++Ophelia+Records.mp3",
+        image_url="https://yuhtube-bucket.s3.amazonaws.com/album-seeds/lost-album.jpg",
+        track_number=9,
+        album_id=10
+    ),
+    Song( #107
+        title='Running Away (feat. Ashley Apollodor)',
+        user_id=1,
+        artist_id=10,
+        song_url="https://yuhtube-bucket.s3.amazonaws.com/songs-seeds/MitiS+x+SubLion+-+Running+Away+(feat.+Ashley+Apollodor)++Ophelia+Records.mp3",
+        image_url="https://yuhtube-bucket.s3.amazonaws.com/album-seeds/lost-album.jpg",
+        track_number=10,
+        album_id=10
+    ),
+    Song( #108
+        title='Back To Me (feat. Bella Renee)',
+        user_id=1,
+        artist_id=10,
+        song_url="https://yuhtube-bucket.s3.amazonaws.com/songs-seeds/MitiS+-+Back+To+Me+(feat.+Bella+Renee)++Ophelia+Records.mp3",
+        image_url="https://yuhtube-bucket.s3.amazonaws.com/album-seeds/lost-album.jpg",
+        track_number=11,
+        album_id=10
+    ),
+    Song( #109
+        title='Found (Outro)',
+        user_id=1,
+        artist_id=10,
+        song_url="https://yuhtube-bucket.s3.amazonaws.com/songs-seeds/MitiS+-+Found+(Outro)++Ophelia+Records.mp3",
+        image_url="https://yuhtube-bucket.s3.amazonaws.com/album-seeds/lost-album.jpg",
         track_number=12,
-        album_id=9
+        album_id=10
     ),
 ]
 
