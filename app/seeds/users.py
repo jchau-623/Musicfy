@@ -2,7 +2,11 @@ from app.models import db, User
 
 users = [
     User(
-        username='Demo', email='demo@aa.io', password='password'),
+        username='Demo',
+        email='demo@aa.io',
+        password='password',
+        image_url='https://yuhtube-bucket.s3.amazonaws.com/user-seeds/corgi.jpg'
+        ),
     # User(
     #     username='marnie', email='marnie@aa.io', password='password'),
     # User(
@@ -12,7 +16,7 @@ users = [
 # Adds a demo user, you can add other users here if you want
 def seed_users():
     for user in users:
-        db.session.add(users)
+        db.session.add(user)
 
     db.session.commit()
 
