@@ -1026,6 +1026,96 @@ songs = [
         track_number=5,
         album_id=11
     ),
+    Song( #115
+        title='FML',
+        user_id=1,
+        artist_id=12,
+        song_url="https://yuhtube-bucket.s3.amazonaws.com/songs-seeds/Deadmau5+-+FML++HD.mp3",
+        image_url="https://yuhtube-bucket.s3.amazonaws.com/album-seeds/forlackofabettername-album.jpg",
+        track_number=1,
+        album_id=12
+    ),
+    Song( #116
+        title='Moar Ghosts n Stuff',
+        user_id=1,
+        artist_id=12,
+        song_url="https://yuhtube-bucket.s3.amazonaws.com/songs-seeds/Deadmau5+-+Moar+Ghosts+'n'+Stuff.mp3",
+        image_url="https://yuhtube-bucket.s3.amazonaws.com/album-seeds/forlackofabettername-album.jpg",
+        track_number=2,
+        album_id=12
+    ),
+    Song( #117
+        title="Ghosts 'n' Stuff (feat. Rob Swire)",
+        user_id=1,
+        artist_id=12,
+        song_url="https://yuhtube-bucket.s3.amazonaws.com/songs-seeds/Deadmau5+-+Ghosts+'n'+Stuff.mp3",
+        image_url="https://yuhtube-bucket.s3.amazonaws.com/album-seeds/forlackofabettername-album.jpg",
+        track_number=3,
+        album_id=12
+    ),
+    Song( #118
+        title="Hi Friend!",
+        user_id=1,
+        artist_id=12,
+        song_url="https://yuhtube-bucket.s3.amazonaws.com/songs-seeds/Deadmau5+-+Hi+Friend.mp3",
+        image_url="https://yuhtube-bucket.s3.amazonaws.com/album-seeds/forlackofabettername-album.jpg",
+        track_number=4,
+        album_id=12
+    ),
+      Song( #119
+        title='Bot',
+        user_id=1,
+        artist_id=12,
+        song_url="https://yuhtube-bucket.s3.amazonaws.com/songs-seeds/Deadmau5+-+Bot.mp3",
+        image_url="https://yuhtube-bucket.s3.amazonaws.com/album-seeds/forlackofabettername-album.jpg",
+        track_number=5,
+        album_id=12
+    ),
+      Song( #120
+        title='Word Problems',
+        user_id=1,
+        artist_id=12,
+        song_url="https://yuhtube-bucket.s3.amazonaws.com/songs-seeds/deadmau5+-+Word+Problems+(audio).mp3",
+        image_url="https://yuhtube-bucket.s3.amazonaws.com/album-seeds/forlackofabettername-album.jpg",
+        track_number=6,
+        album_id=12
+    ),
+      Song( #121
+        title='Soma',
+        user_id=1,
+        artist_id=12,
+        song_url="https://yuhtube-bucket.s3.amazonaws.com/songs-seeds/Deadmau5+-+Soma++HD.mp3",
+        image_url="https://yuhtube-bucket.s3.amazonaws.com/album-seeds/forlackofabettername-album.jpg",
+        track_number=7,
+        album_id=12
+    ),
+      Song( #122
+        title='Lack Of A Better Name',
+        user_id=1,
+        artist_id=12,
+        song_url="https://yuhtube-bucket.s3.amazonaws.com/songs-seeds/Deadmau5+-+Lack+of+a+Better+Name+(1080p)++HD.mp3",
+        image_url="https://yuhtube-bucket.s3.amazonaws.com/album-seeds/forlackofabettername-album.jpg",
+        track_number=8,
+        album_id=12
+    ),
+      Song( #123
+        title='The 16th Hour',
+        user_id=1,
+        artist_id=12,
+        song_url="https://yuhtube-bucket.s3.amazonaws.com/songs-seeds/Deadmau5+-+The+16th+Hour++HD.mp3",
+        image_url="https://yuhtube-bucket.s3.amazonaws.com/album-seeds/forlackofabettername-album.jpg",
+        track_number=9,
+        album_id=12
+    ),
+      Song( #124
+        title='Strobe',
+        user_id=1,
+        artist_id=12,
+        song_url="https://yuhtube-bucket.s3.amazonaws.com/songs-seeds/deadmau5+-+Strobe.mp3",
+        image_url="https://yuhtube-bucket.s3.amazonaws.com/album-seeds/forlackofabettername-album.jpg",
+        track_number=10,
+        album_id=12
+    ),
 ]
 
 def seed_songs():
