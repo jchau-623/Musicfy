@@ -981,6 +981,51 @@ songs = [
         track_number=12,
         album_id=10
     ),
+    Song( #110
+        title='you were good to me',
+        user_id=1,
+        artist_id=11,
+        song_url="https://yuhtube-bucket.s3.amazonaws.com/songs-seeds/Chelsea+Cutler+%26+Jeremy+Zucker+-+you+were+good+to+me+(Official+Audio).mp3",
+        image_url="https://yuhtube-bucket.s3.amazonaws.com/album-seeds/brent-album.jpg",
+        track_number=1,
+        album_id=11
+    ),
+    Song( #111
+        title='please',
+        user_id=1,
+        artist_id=11,
+        song_url="https://yuhtube-bucket.s3.amazonaws.com/songs-seeds/Chelsea+Cutler%2C+Jeremy+Zucker+-+please+(Official+Audio).mp3",
+        image_url="https://yuhtube-bucket.s3.amazonaws.com/album-seeds/brent-album.jpg",
+        track_number=2,
+        album_id=11
+    ),
+    Song( #112
+        title='sometimes',
+        user_id=1,
+        artist_id=11,
+        song_url="https://yuhtube-bucket.s3.amazonaws.com/songs-seeds/Chelsea+Cutler+-+Sometimes+(Official+Audio).mp3",
+        image_url="https://yuhtube-bucket.s3.amazonaws.com/album-seeds/brent-album.jpg",
+        track_number=3,
+        album_id=11
+    ),
+    Song( #113
+        title='hello old friend',
+        user_id=1,
+        artist_id=11,
+        song_url="https://yuhtube-bucket.s3.amazonaws.com/songs-seeds/Jeremy+Zucker%2C+Chelsea+Cutler+-+hello+old+friend+(Official+Audio).mp3",
+        image_url="https://yuhtube-bucket.s3.amazonaws.com/album-seeds/brent-album.jpg",
+        track_number=4,
+        album_id=11
+    ),
+    Song( #114
+        title='scared',
+        user_id=1,
+        artist_id=11,
+        song_url="https://yuhtube-bucket.s3.amazonaws.com/songs-seeds/Chelsea+Cutler+%26+Jeremy+Zucker+-+Scared+(Official+Audio).mp3",
+        image_url="https://yuhtube-bucket.s3.amazonaws.com/album-seeds/brent-album.jpg",
+        track_number=5,
+        album_id=11
+    ),
 ]
 
 def seed_songs():
