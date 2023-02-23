@@ -657,6 +657,51 @@ songs = [
         track_number=12,
         album_id=7
     ),
+    Song( #74
+        title='',
+        user_id=1,
+        artist_id=8,
+        song_url="",
+        image_url="https://yuhtube-bucket.s3.amazonaws.com/album-seeds/keshi-album.png",
+        track_number=1,
+        album_id=8
+    ),
+    Song( #74
+        title='',
+        user_id=1,
+        artist_id=8,
+        song_url="",
+        image_url="https://yuhtube-bucket.s3.amazonaws.com/album-seeds/keshi-album.png",
+        track_number=1,
+        album_id=8
+    ),
+    Song( #74
+        title='',
+        user_id=1,
+        artist_id=8,
+        song_url="",
+        image_url="https://yuhtube-bucket.s3.amazonaws.com/album-seeds/keshi-album.png",
+        track_number=1,
+        album_id=8
+    ),
+    Song( #74
+        title='',
+        user_id=1,
+        artist_id=8,
+        song_url="",
+        image_url="https://yuhtube-bucket.s3.amazonaws.com/album-seeds/keshi-album.png",
+        track_number=1,
+        album_id=8
+    ),
+    Song( #74
+        title='',
+        user_id=1,
+        artist_id=8,
+        song_url="",
+        image_url="https://yuhtube-bucket.s3.amazonaws.com/album-seeds/keshi-album.png",
+        track_number=1,
+        album_id=8
+    ),
 ]
 
 def seed_songs():
