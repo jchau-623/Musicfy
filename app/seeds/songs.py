@@ -658,49 +658,229 @@ songs = [
         album_id=7
     ),
     Song( #74
-        title='',
+        title='Intro',
         user_id=1,
         artist_id=8,
-        song_url="",
-        image_url="https://yuhtube-bucket.s3.amazonaws.com/album-seeds/keshi-album.png",
+        song_url="https://yuhtube-bucket.s3.amazonaws.com/songs-seeds/Jai+Wolf+-+Intro+(Official+Audio).mp3",
+        image_url="https://yuhtube-bucket.s3.amazonaws.com/album-seeds/thecuretoloneliness-album.jpg",
         track_number=1,
         album_id=8
     ),
-    Song( #74
-        title='',
+    Song( #75
+        title='Lose My Mind (feat. Mr Gabriel)',
         user_id=1,
         artist_id=8,
-        song_url="",
-        image_url="https://yuhtube-bucket.s3.amazonaws.com/album-seeds/keshi-album.png",
-        track_number=1,
+        song_url="https://yuhtube-bucket.s3.amazonaws.com/songs-seeds/Jai+Wolf+-+Lose+My+Mind+(feat.+Mr.+Gabriel).mp3",
+        image_url="https://yuhtube-bucket.s3.amazonaws.com/album-seeds/thecuretoloneliness-album.jpg",
+        track_number=2,
         album_id=8
     ),
-    Song( #74
-        title='',
+    Song( #76
+        title='Telepathy',
         user_id=1,
         artist_id=8,
-        song_url="",
-        image_url="https://yuhtube-bucket.s3.amazonaws.com/album-seeds/keshi-album.png",
-        track_number=1,
+        song_url="https://yuhtube-bucket.s3.amazonaws.com/songs-seeds/Jai+Wolf+-+Telepathy+(Official+Visualizer).mp3",
+        image_url="https://yuhtube-bucket.s3.amazonaws.com/album-seeds/thecuretoloneliness-album.jpg",
+        track_number=3,
         album_id=8
     ),
-    Song( #74
-        title='',
+    Song( #77
+        title='Still Sleeping',
         user_id=1,
         artist_id=8,
-        song_url="",
-        image_url="https://yuhtube-bucket.s3.amazonaws.com/album-seeds/keshi-album.png",
-        track_number=1,
+        song_url="https://yuhtube-bucket.s3.amazonaws.com/songs-seeds/Jai+Wolf+-+Still+Sleeping+(Official+Audio).mp3",
+        image_url="https://yuhtube-bucket.s3.amazonaws.com/album-seeds/thecuretoloneliness-album.jpg",
+        track_number=4,
         album_id=8
     ),
-    Song( #74
-        title='',
+    Song( #78
+        title='This Song Reminds Me Of You',
         user_id=1,
         artist_id=8,
-        song_url="",
-        image_url="https://yuhtube-bucket.s3.amazonaws.com/album-seeds/keshi-album.png",
-        track_number=1,
+        song_url="https://yuhtube-bucket.s3.amazonaws.com/songs-seeds/Jai+Wolf+-+This+Song+Reminds+Me+Of+You+(Official+Audio).mp3",
+        image_url="https://yuhtube-bucket.s3.amazonaws.com/album-seeds/thecuretoloneliness-album.jpg",
+        track_number=5,
         album_id=8
+    ),
+    Song( #79
+        title='Manic Pixie Dream',
+        user_id=1,
+        artist_id=8,
+        song_url="https://yuhtube-bucket.s3.amazonaws.com/songs-seeds/Jai+Wolf+-+Manic+Pixie+Dream+(Official+Audio).mp3",
+        image_url="https://yuhtube-bucket.s3.amazonaws.com/album-seeds/thecuretoloneliness-album.jpg",
+        track_number=6,
+        album_id=8
+    ),
+    Song( #80
+        title='It All Started With A Feeling',
+        user_id=1,
+        artist_id=8,
+        song_url="https://yuhtube-bucket.s3.amazonaws.com/songs-seeds/Jai+Wolf+-+It+All+Started+With+A+Feeling+(Official+Audio).mp3",
+        image_url="https://yuhtube-bucket.s3.amazonaws.com/album-seeds/thecuretoloneliness-album.jpg",
+        track_number=7,
+        album_id=8
+    ),
+    Song( #81
+        title='Better Apart (feat. Dresage)',
+        user_id=1,
+        artist_id=8,
+        song_url="https://yuhtube-bucket.s3.amazonaws.com/songs-seeds/Jai+Wolf+-+Better+Apart+ft.+Dresage+(Official+Audio).mp3",
+        image_url="https://yuhtube-bucket.s3.amazonaws.com/album-seeds/thecuretoloneliness-album.jpg",
+        track_number=8,
+        album_id=8
+    ),
+    Song( #82
+        title='Drowning (feat. Robokid)',
+        user_id=1,
+        artist_id=8,
+        song_url="https://yuhtube-bucket.s3.amazonaws.com/songs-seeds/Jai+Wolf+-+Drowning+ft.+Robokid+(Official+Audio).mp3",
+        image_url="https://yuhtube-bucket.s3.amazonaws.com/album-seeds/thecuretoloneliness-album.jpg",
+        track_number=9,
+        album_id=8
+    ),
+    Song( #83
+        title='Half Hearted Interlude',
+        user_id=1,
+        artist_id=8,
+        song_url="https://yuhtube-bucket.s3.amazonaws.com/songs-seeds/Jai+Wolf+-+Half+Hearted+Interlude+(Official+Audio).mp3",
+        image_url="https://yuhtube-bucket.s3.amazonaws.com/album-seeds/thecuretoloneliness-album.jpg",
+        track_number=10,
+        album_id=8
+    ),
+    Song( #84
+        title='Your Way (feat. Day Wave)',
+        user_id=1,
+        artist_id=8,
+        song_url="https://yuhtube-bucket.s3.amazonaws.com/songs-seeds/Jai+Wolf+-+Your+Way+ft.+Day+Wave+(Official+Lyric+Video).mp3",
+        image_url="https://yuhtube-bucket.s3.amazonaws.com/album-seeds/thecuretoloneliness-album.jpg",
+        track_number=11,
+        album_id=8
+    ),
+    Song( #85
+        title='Around The World (feat. Now, Now)',
+        user_id=1,
+        artist_id=8,
+        song_url="https://yuhtube-bucket.s3.amazonaws.com/songs-seeds/Jai+Wolf+-+Around+the+World+ft.+Now%2C+Now+(Official+Audio).mp3",
+        image_url="https://yuhtube-bucket.s3.amazonaws.com/album-seeds/thecuretoloneliness-album.jpg",
+        track_number=12,
+        album_id=8
+    ),
+    Song( #86
+        title='Bartender',
+        user_id=1,
+        artist_id=9,
+        song_url="",
+        image_url="https://yuhtube-bucket.s3.amazonaws.com/album-seeds/thepeopleschamp-album.jpg",
+        track_number=1,
+        album_id=9
+    ),
+    Song( #87
+        title='Common (feat. Big Sean)',
+        user_id=1,
+        artist_id=9,
+        song_url="",
+        image_url="https://yuhtube-bucket.s3.amazonaws.com/album-seeds/thepeopleschamp-album.jpg",
+        track_number=2,
+        album_id=9
+    ),
+    Song( #88
+        title='Black Porsche',
+        user_id=1,
+        artist_id=9,
+        song_url="",
+        image_url="https://yuhtube-bucket.s3.amazonaws.com/album-seeds/thepeopleschamp-album.jpg",
+        track_number=3,
+        album_id=9
+    ),
+    Song( #89
+        title="FOMO (Don't Do Cool Shit)",
+        user_id=1,
+        artist_id=9,
+        song_url="",
+        image_url="https://yuhtube-bucket.s3.amazonaws.com/album-seeds/thepeopleschamp-album.jpg",
+        track_number=4,
+        album_id=9
+    ),
+    Song( #90
+        title='Let Me Down (with Chelsea Cutler)',
+        user_id=1,
+        artist_id=9,
+        song_url="",
+        image_url="https://yuhtube-bucket.s3.amazonaws.com/album-seeds/thepeopleschamp-album.jpg",
+        track_number=5,
+        album_id=9
+    ),
+    Song( #91
+        title='Good Either Way (With Adrian Cota)',
+        user_id=1,
+        artist_id=9,
+        song_url="",
+        image_url="https://yuhtube-bucket.s3.amazonaws.com/album-seeds/thepeopleschamp-album.jpg",
+        track_number=6,
+        album_id=9
+    ),
+    Song( #92
+        title='Too Late (With AJR)',
+        user_id=1,
+        artist_id=9,
+        song_url="",
+        image_url="https://yuhtube-bucket.s3.amazonaws.com/album-seeds/thepeopleschamp-album.jpg",
+        track_number=7,
+        album_id=9
+    ),
+    Song( #93
+        title='The Lows',
+        user_id=1,
+        artist_id=9,
+        song_url="",
+        image_url="https://yuhtube-bucket.s3.amazonaws.com/album-seeds/thepeopleschamp-album.jpg",
+        track_number=8,
+        album_id=9
+    ),
+    Song( #94
+        title='Being Me',
+        user_id=1,
+        artist_id=9,
+        song_url="",
+        image_url="https://yuhtube-bucket.s3.amazonaws.com/album-seeds/thepeopleschamp-album.jpg",
+        track_number=9,
+        album_id=9
+    ),
+    Song( #95
+        title='Why Do You Talk To Me?',
+        user_id=1,
+        artist_id=9,
+        song_url="",
+        image_url="https://yuhtube-bucket.s3.amazonaws.com/album-seeds/thepeopleschamp-album.jpg",
+        track_number=10,
+        album_id=9
+    ),
+    Song( #96
+        title='Backpack',
+        user_id=1,
+        artist_id=9,
+        song_url="",
+        image_url="https://yuhtube-bucket.s3.amazonaws.com/album-seeds/thepeopleschamp-album.jpg",
+        track_number=11,
+        album_id=9
+    ),
+    Song( #97
+        title='All That You Need',
+        user_id=1,
+        artist_id=9,
+        song_url="",
+        image_url="https://yuhtube-bucket.s3.amazonaws.com/album-seeds/thepeopleschamp-album.jpg",
+        track_number=12,
+        album_id=9
+    ),
+    Song( #97
+        title='All That You Need',
+        user_id=1,
+        artist_id=9,
+        song_url="",
+        image_url="https://yuhtube-bucket.s3.amazonaws.com/album-seeds/thepeopleschamp-album.jpg",
+        track_number=12,
+        album_id=9
     ),
 ]
 
