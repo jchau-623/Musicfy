@@ -107,3 +107,16 @@
     color:white;
     cursor:pointer;
 }
+
+.login-form-buttons:hover {
+    border:1px solid black;
+}
+
+.login-form-errors {
+    display: flex;
+    flex-direction: column;
+    color:#cc4539;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 10px;
+}
