@@ -7,10 +7,18 @@ users = [
         password='password',
         image_url='https://yuhtube-bucket.s3.amazonaws.com/user-seeds/corgi.jpg'
         ),
-    # User(
-    #     username='marnie', email='marnie@aa.io', password='password'),
-    # User(
-    #     username='bobbie', email='bobbie@aa.io', password='password')
+    User(
+        username='marnie',
+        email='marnie@aa.io',
+        password='password',
+        image_url='https://yuhtube-bucket.s3.amazonaws.com/user-seeds/corgi.jpg'
+        ),
+    User(
+        username='bobbie',
+        email='bobbie@aa.io',
+        password='password',
+        image_url='https://yuhtube-bucket.s3.amazonaws.com/user-seeds/corgi.jpg'
+        )
 ]
 
 # Adds a demo user, you can add other users here if you want
