@@ -7,6 +7,7 @@
     border-radius: 1px;
 }
 
+
 .login-logo {
     border-bottom: 1px solid rgba(219,219,219);
     padding-top: 8px;
@@ -97,8 +98,8 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-color: #00a82d;
-    font-size: 16px;
+    background-color: #1ed760;
+    font-size: 14px;
     height: 45px;
     width: 400px;
     margin-top: 10px;
@@ -106,6 +107,16 @@
     border: none;
     color:white;
     cursor:pointer;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.login-form-container {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
 }
 
 .login-form-buttons:hover {
@@ -119,4 +130,5 @@
     align-items: center;
     text-align: center;
     margin-bottom: 10px;
+
 }

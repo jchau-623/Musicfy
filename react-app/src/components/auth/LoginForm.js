@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
-import { Redirect, useHistory } from 'react-router-dom';
+import { Redirect, useHistory, NavLink } from 'react-router-dom';
 import { login } from '../../store/session';
-import './LoginForm.css'
+import './AuthForm.css'
 
 const LoginForm = () => {
   const [errors, setErrors] = useState([]);
@@ -50,8 +50,8 @@ const LoginForm = () => {
               Musicfy
             </div>
           </div>
-          <h2>To continue, log in to Musicfy.</h2>
         </div>
+            <h2>To continue, log in to Musicfy.</h2>
         <div className='login-form-content'>
           <div className='login-form-errors'>
             {errors.map((error, ind) => (
@@ -82,6 +82,7 @@ const LoginForm = () => {
             <div className='login-button-container'>
               <button className='login-form-buttons' type='submit'>Login</button>
               <button className='login-form-buttons' type='submit' onClick={loginDemoUser}>Demo User</button>
+              <NavLink className='login-form-buttons' to='/sign-up' id='login-link'>Sign up for Musicfy</NavLink>
             </div>
           </div>
         </div>
@@ -91,4 +92,3 @@ const LoginForm = () => {
 };
 
 export default LoginForm;
-//
