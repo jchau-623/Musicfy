@@ -123,6 +123,10 @@
     border:1px solid black;
 }
 
+.login-button-container {
+    padding-top:10px;
+}
+
 .login-form-errors {
     display: flex;
     flex-direction: column;

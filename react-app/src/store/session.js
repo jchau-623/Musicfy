@@ -11,6 +11,23 @@ const removeUser = () => ({
   type: REMOVE_USER,
 })
 
+export const loadUserAlbum = (album) => {
+  return {
+    type: ADD_USER_ALBUM,
+    album
+  }
+};
+
+export const removeUserAlbum = (albumId) => {
+  return {
+    type: REMOVE_USER_ALBUM,
+    albumId
+  }
+}
+
+const ADD_USER_ALBUM = 'session/ADD_USER_ALBUM';
+const REMOVE_USER_ALBUM = 'session/REMOVE_USER_ALBUM';
+
 const initialState = { user: null };
 
 export const authenticate = () => async (dispatch) => {
@@ -24,7 +41,7 @@ export const authenticate = () => async (dispatch) => {
     if (data.errors) {
       return;
     }
-  
+
     dispatch(setUser(data));
   }
 }
@@ -40,8 +57,8 @@ export const login = (email, password) => async (dispatch) => {
       password
     })
   });
-  
-  
+
+
   if (response.ok) {
     const data = await response.json();
     dispatch(setUser(data))
@@ -82,7 +99,7 @@ export const signUp = (username, email, password) => async (dispatch) => {
       password,
     }),
   });
-  
+
   if (response.ok) {
     const data = await response.json();
     dispatch(setUser(data))
@@ -98,6 +115,8 @@ export const signUp = (username, email, password) => async (dispatch) => {
 }
 
 export default function reducer(state = initialState, action) {
+  let stateCopy;
+  let idx;
   switch (action.type) {
     case SET_USER:
       return { user: action.payload }
@@ -105,5 +124,21 @@ export default function reducer(state = initialState, action) {
       return { user: null }
     default:
       return state;
+    case ADD_USER_ALBUM:
+      return {
+        ...state,
+        user: {
+          ...state.user,
+          albums: [...state.user.albums, action.album]
+        }
+      };
+
+    case REMOVE_USER_ALBUM:
+      stateCopy = { ...state };
+      const albums = stateCopy.user.albums;
+      idx = albums.findIndex(album => album.id === action.albumId);
+      albums.splice(idx, 1);
+
+      return stateCopy;
   }
 }
