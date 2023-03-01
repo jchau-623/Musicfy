@@ -9,9 +9,9 @@ class Song(db.Model):
     user_id = db.Column(db.Integer, db.ForeignKey('users.id'))
     artist_id = db.Column(db.Integer, db.ForeignKey('artists.id'), nullable=False)
     album_id = db.Column(db.Integer, db.ForeignKey('albums.id'))
-    song_url = db.Column(db.String(500), nullable=False)
-    image_url = db.Column(db.String(500))
-    track_number = db.Column(db.Integer)
+    song_url = db.Column(db.String(), nullable=False)
+    image_url = db.Column(db.String())
+    track_number = db.Column(db.Integer) 
 
     user = db.relationship('User', back_populates='songs')
     artist = db.relationship('Artist', back_populates='songs')

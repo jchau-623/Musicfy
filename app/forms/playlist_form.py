@@ -6,5 +6,5 @@ from app.models import Song, Playlist
 class PlaylistForm(FlaskForm):
     title = StringField('title', validators=[
         DataRequired('Title is required'),
-        Length(max=35, message='Title must be less than 50 characters')])
+        Length(max=50, message='Title must be less than 50 characters')])
     image_url = StringField('image_url')

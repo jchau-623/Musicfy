@@ -5,7 +5,7 @@ class Playlist(db.Model):
     __tablename__ = 'playlists'
 
     id = db.Column(db.Integer, primary_key=True)
-    title = db.Column(db.String(35), nullable=False)
+    title = db.Column(db.String(50), nullable=False)
     user_id = db.Column(db.Integer, db.ForeignKey('users.id'))
 
     user = db.relationship('User', back_populates='playlists')
