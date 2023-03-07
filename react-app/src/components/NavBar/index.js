@@ -14,7 +14,6 @@ export default function NavBar() {
   useEffect(() => {
     if (window.location.href === 'http://localhost:3000/') {
       setIsHomePage(true)
-
     } else {
       setIsHomePage(false)
     }
@@ -23,7 +22,6 @@ export default function NavBar() {
   useEffect(() => {
     if (window.location.href === 'http://localhost:3000/library') {
       setIsLibraryPage(true)
-
     } else {
       setIsLibraryPage(false)
     }
@@ -44,8 +42,11 @@ export default function NavBar() {
             Your Library
           </div>
         </NavLink>
-      </div>
       <LogoutButton />
+      </div>
+      <div className='leftnav-bothalf'>
+      
+      </div>
     </div>
   );
 }

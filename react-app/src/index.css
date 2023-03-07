@@ -6,9 +6,14 @@
 .page-container {
     display: flex;
     flex-direction: row;
+    background-color: #191414
 }
 
 .page-content {
-    background-color: #f9f9f9;
+    background-color: #191414;
     width:100%;
+}
+
+.page-content h1 {
+    color:white;
 }
