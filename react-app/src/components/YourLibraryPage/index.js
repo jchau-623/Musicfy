@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux'
 import NavBar from '../NavBar';
-import './HomePage.css'
+import './YourLibraryPage.css'
 
-export default function HomePage() {
+export default function YourLibraryPage() {
 
     const dispatch = useDispatch()
 
@@ -11,7 +11,7 @@ export default function HomePage() {
         <div className='page-container'>
             <NavBar />
             <div className='page-content'>
-                <h1>Home Page</h1>
+                <h1>Your Library Page</h1>
             </div>
         </div>
 
