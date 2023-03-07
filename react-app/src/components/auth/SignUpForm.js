@@ -10,18 +10,14 @@ const SignUpForm = () => {
   const [email, setEmail] = useState('');
   const [repeatEmail, setRepeatEmail] = useState('')
   const [password, setPassword] = useState('');
-  const [repeatPassword, setRepeatPassword] = useState('');
   const user = useSelector(state => state.session.user);
   const dispatch = useDispatch();
 
   const onSignUp = async (e) => {
     e.preventDefault();
-    if (password === repeatPassword) {
-      const data = await dispatch(signUp(username, email, password));
-      if (data) {
-        setErrors(data)
-      }
-    }
+      const data = await dispatch(signUp(username, email, password, repeatEmail));
+      console.log(data, 'this is data')
+      setErrors(data)
   };
 
   const updateUsername = (e) => {
@@ -40,9 +36,6 @@ const SignUpForm = () => {
     setPassword(e.target.value);
   };
 
-  const updateRepeatPassword = (e) => {
-    setRepeatPassword(e.target.value);
-  };
 
   if (user) {
     return <Redirect to='/' />;
@@ -50,7 +43,7 @@ const SignUpForm = () => {
 
   return (
     <div className='login-form-container'>
-      <form className='login-form' onSubmit={onSignUp}>
+      <form className='signup-form' onSubmit={onSignUp}>
         <div className='login-form-header'>
           <div className='login-logo'>
             <i className="fa-brands fa-spotify" />
@@ -82,7 +75,7 @@ const SignUpForm = () => {
             <input
               className='login-form-field-input'
               type='text'
-              name='email'
+              name='repeat_email'
               onChange={updateRepeatEmail}
               placeholder='Enter your email again.'
               value={repeatEmail}

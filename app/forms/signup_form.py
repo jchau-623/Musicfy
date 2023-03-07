@@ -32,13 +32,13 @@ def password_check(form, field):
     if len(password) < 5 or len(password) > 20:
         raise ValidationError('Password must be between 5 and 20 characters.')
     elif not any(x in password for x in special):
-        raise ValidationError("Please include at least one of: !@#$%^&*")
+        raise ValidationError("Please include at least one of the following: !@#$%^&*")
 
 
 
 class SignUpForm(FlaskForm):
     email = StringField('email', validators=[DataRequired('You need to enter your email.'), user_exists, Length(min=3, max=255, message='Email must be between 3 and 255 characters.')])
-    repeat_email = StringField('email', validators=[DataRequired('You need to confirm your email.')])
+    repeat_email = StringField('repeat_email', validators=[DataRequired('You need to confirm your email.'), repeat_email])
     password = StringField('password', validators=[DataRequired('You need to enter a password.'), password_check])
     username = StringField(
         'username', validators=[DataRequired('Enter a name for your profile.'), username_exists,Length(min=3, max=40, message='Username must be between 3 and 30 characters.')])
