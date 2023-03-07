@@ -26,16 +26,19 @@ def repeat_email(form, field):
     if not repeat_email == email:
         raise ValidationError("Your emails must match.")
 
-def password_length(form, field):
+def password_check(form, field):
     password = field.data
+    special = ['!', '@', '#', '$', '%', '^', '&', '*']
     if len(password) < 5 or len(password) > 20:
         raise ValidationError('Password must be between 5 and 20 characters.')
+    elif not any(x in password for x in special):
+        raise ValidationError("Please include at least one of: !@#$%^&*")
 
 
 
 class SignUpForm(FlaskForm):
     email = StringField('email', validators=[DataRequired('You need to enter your email.'), user_exists, Length(min=3, max=255, message='Email must be between 3 and 255 characters.')])
     repeat_email = StringField('email', validators=[DataRequired('You need to confirm your email.')])
-    password = StringField('password', validators=[DataRequired('You need to enter a password.')])
+    password = StringField('password', validators=[DataRequired('You need to enter a password.'), password_check])
     username = StringField(
         'username', validators=[DataRequired('Enter a name for your profile.'), username_exists,Length(min=3, max=40, message='Username must be between 3 and 30 characters.')])
