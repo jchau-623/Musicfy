@@ -117,7 +117,7 @@ export const removeFromPlaylist = (songId, playlistId) => async dispatch => {
 };
 
 export const patchPlaylist = (payload) => async dispatch => {
-    const { title, image, , playlistId } = payload;
+    const { title, image, song, playlistId } = payload;
     const formData = new FormData();
 
     formData.append('title', title);
