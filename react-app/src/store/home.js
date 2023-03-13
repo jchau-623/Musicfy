@@ -68,7 +68,7 @@ const loadFeaturedSongs = (songs) => {
         songs
     }
 };
-//
+
 export const cleanHome = () => {
     return {
         type: CLEAN_HOME
