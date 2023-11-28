@@ -1,0 +1,19 @@
+/* TODO Add site wide styles */
+* {
+    font-family: var(--font-family,CircularSp,CircularSp-Arab,CircularSp-Hebr,CircularSp-Cyrl,CircularSp-Grek,CircularSp-Deva,var(--fallback-fonts,sans-serif))
+}
+
+.page-container {
+    display: flex;
+    flex-direction: row;
+    /* background-color: #191414 */
+}
+
+.page-content {
+    /* background-color: #191414; */
+    width:100%;
+}
+
+.page-content h1 {
+    color:white;
+}

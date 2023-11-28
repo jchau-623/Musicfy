@@ -1,0 +1,52 @@
+.nav-bar {
+    font-size: 15px;
+    width: 240px;
+    margin-top: 10px;
+    background-color:#191414;
+    text-decoration: none;
+    height:100%;
+}
+
+.leftnav-tophalf {
+    padding-bottom: 15px;
+    padding-top:15px;
+    border-bottom: 1px solid gray;
+}
+
+.leftnav-tab {
+    padding-bottom: 10px;
+    padding-top: 5px;
+
+}
+
+.leftnav-tab:hover {
+    color: lightgray;
+    cursor: pointer;
+}
+
+.fa-house {
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-left: 25px;
+
+}
+
+.fa-book {
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-left: 25px;
+
+}
+
+.highlighted {
+    font-weight: bold;
+}
+
+.navlink:visited {
+    color: #e9e9e9;
+}
+
+.navlink {
+    text-decoration: none;
+    background-color: #e9e9e9;
+}
