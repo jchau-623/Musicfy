@@ -36,7 +36,6 @@ const SignUpForm = () => {
     setPassword(e.target.value);
   };
 
-
   if (user) {
     return <Redirect to='/' />;
   }
