@@ -23,6 +23,7 @@ export default function HomePage() {
         dispatch(setLoaded());
     }, [dispatch, homeItems])
 
+    
     let homeContent;
     if (homeDisplay === 'albums') {
         homeContent = (
