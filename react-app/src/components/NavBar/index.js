@@ -27,6 +27,7 @@ export default function NavBar() {
     }
   }, []);
 
+  
   return (
     <div className='nav-bar'>
       <div className='leftnav-tophalf'>
@@ -45,7 +46,7 @@ export default function NavBar() {
       <LogoutButton />
       </div>
       <div className='leftnav-bothalf'>
-      
+
       </div>
     </div>
   );
