@@ -26,7 +26,7 @@ export default function NavBar() {
       setIsLibraryPage(false)
     }
   }, []);
-
+  
   return (
     <div className='nav-bar'>
       <div className='leftnav-tophalf'>
