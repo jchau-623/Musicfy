@@ -27,7 +27,6 @@ export default function NavBar() {
     }
   }, []);
 
-  
   return (
     <div className='nav-bar'>
       <div className='leftnav-tophalf'>
