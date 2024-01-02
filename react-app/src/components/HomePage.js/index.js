@@ -16,7 +16,7 @@ export default function HomePage() {
     // const newAlbums = useSelector(getNewAlbumsArray);
     const featuredSongs = Object.values(homeItems.featuredSongs)
 
-    
+
     useEffect(() => {
         if (homeItems.isLoaded) return;
         dispatch(getPlaylists());
@@ -33,7 +33,6 @@ export default function HomePage() {
                 <h2>New Albums</h2>
 
                 <h2>Top Albums</h2>
-
             </>
         )
     } else if (homeDisplay === 'songs') {
@@ -47,7 +46,6 @@ export default function HomePage() {
                     ))}
                 </div>
                 <h2>New Songs</h2>
-
             </>
         )
     }
