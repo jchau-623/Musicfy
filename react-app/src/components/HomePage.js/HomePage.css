@@ -1,0 +1,41 @@
+#home-wrapper {
+    margin-top: 50px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: calc(100vw - 200px) 200px;
+    height: calc(100vh - 140px);
+}
+
+#home-wrapper .main-wrapper {
+    grid-column-start: 1;
+    padding: 0 60px;
+    height: 100%;
+
+
+    margin-bottom: 90px;
+
+    overflow-y: scroll;
+}
+
+#home-wrapper .main-wrapper::-webkit-scrollbar {
+
+    background-color: #0c0f0fa2;
+    border-radius: 9px;
+}
+
+#home-wrapper .main-wrapper::-webkit-scrollbar-thumb {
+    background-color: rgb(37, 37, 37);
+    border: 3px solid transparent;
+    border-radius: 9px;
+    background-clip: content-box;
+
+}
+
+
+#home-wrapper h2 {
+    font-size: 24px;
+    font-family: var(--header-font);
+    color: var(--text-main-white);
+    margin-top: 2em;
+    margin-bottom: 1em;
+}

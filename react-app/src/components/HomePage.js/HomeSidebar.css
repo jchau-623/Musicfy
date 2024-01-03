@@ -1,0 +1,47 @@
+#home-wrapper .bottom-sidebar {
+    grid-column-start: 2;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    border-left: 2px solid var(--border-gray);
+    padding-top: 50px;
+    height: 100%;
+}
+
+.sidebar-button {
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    font-size: 24px;
+    color: gray;
+    font-family: var(--header-font);
+    padding: 0;
+    transition: .5s;
+}
+
+.sidebar-button:hover {
+    color: white;
+}
+
+.sidebar-button-container {
+    padding: 5px;
+    width: 100%;
+    text-align: center;
+}
+
+.sidebar-button-container .selector {
+    color: var(--main-gray);
+}
+
+.sidebar-button-container .selector.active {
+    color: var(--accent-orange)
+}
+
+.sidebar-button.active .selector {
+    color: var(--accent-orange)
+}
+
+
+.sidebar-button-container i {
+    font-size: 16px;
+    padding-left: 10px;
+}
