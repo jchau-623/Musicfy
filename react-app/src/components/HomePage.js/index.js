@@ -3,6 +3,7 @@ import { useDispatch, useSelector } from 'react-redux'
 import NavBar from '../NavBar';
 import SongPlayer from '../SongPlayer';
 import AlbumPlayer from '../AlbumPlayer';
+import HomeSidebar from './HomeSidebar';
 import { getNewAlbumsArray, getNewSongsArray, getTopAlbumsArray, loadHome, setLoaded } from '../../store/home';
 import { getPlaylists } from '../../store/playlists';
 import './HomePage.css'
@@ -56,13 +57,16 @@ export default function HomePage() {
     }
 
     return (
+        <div id='home-wrapper'>
+            <div className='main-wrapper'>
+                {homeContent}
+            </div>
 
-        <div className='page-container'>
-        <NavBar />
-        <div className='page-content'>
-            {homeContent}
+            <div className='sidebar-container'>
+                
+
+                <HomeSidebar setHomeDisplay={setHomeDisplay} homeDisplay={homeDisplay}/>
+            </div>
         </div>
-    </div>
-//
     )
-}
+};
