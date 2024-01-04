@@ -6,11 +6,34 @@ import './SongPlayer.css';
 
 export default function SongPlayer({ song }) {
     const dispatch = useDispatch();
+    const user = useSelector(({ session }) => session.user);
+    const likedSongIds = user.liked.song_ids;
 
     const playSong = (e) => {
         e.stopPropagation();
         dispatch(loadSongAndSetQueue(song));
     };
+
+    const likeSong = (e) => {
+        e.stopPropagation();
+        dispatch(createSongLike(song.id));
+    };
+
+    const unlikeSong = (e) => {
+        e.stopPropagation();
+        dispatch(deleteSongLike(song.id));
+    }
+
+    let likeIconClass;
+    let toggleLike;
+
+    if (likedSongIds.includes(song.id)) {
+        likeIconClass = 'fas fa-heart';
+        toggleLike = unlikeSong;
+    } else {
+        likeIconClass = 'far fa-heart';
+        toggleLike = likeSong;
+    }
 
     return (
         <div
@@ -25,6 +48,7 @@ export default function SongPlayer({ song }) {
                 />
             </div>
             <div className='song-player-overlay' onClick={playSong}>
+                <i onClick={toggleLike} className={`${likeIconClass} heart`}></i>
 
                     <p className='song-title'>{song.title}</p>
                     <p className='song-artist'>{song.artist.name}</p>

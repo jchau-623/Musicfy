@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux'
 import NavBar from '../NavBar';
 import SongPlayer from '../SongPlayer';
+import AlbumPlayer from '../AlbumPlayer';
 import { getNewAlbumsArray, getNewSongsArray, getTopAlbumsArray, loadHome, setLoaded } from '../../store/home';
 import { getPlaylists } from '../../store/playlists';
 import './HomePage.css'
@@ -15,7 +16,9 @@ export default function HomePage() {
     const homeItems = useSelector(({ home }) => home);
     // const newSongs = useSelector(getNewSongsArray);
     // const newAlbums = useSelector(getNewAlbumsArray);
+    const featuredAlbum = homeItems.featuredAlbum;
     const featuredSongs = Object.values(homeItems.featuredSongs)
+    // const topAlbums = useSelector(getTopAlbumsArray);
 
 
     useEffect(() => {
@@ -30,6 +33,7 @@ export default function HomePage() {
         homeContent = (
             <>
                 <h2>Featured Album</h2>
+                <AlbumPlayer album={featuredAlbum} />
 
                 <h2>New Albums</h2>
 
