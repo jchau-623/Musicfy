@@ -26,6 +26,9 @@ export const getAlbum = (albumId) => async dispatch => {
 const initialState = null;
 
 export default function reducer(state = initialState, action) {
+    let normalizedData;
+    let orderedIds;
+
     switch (action.type) {
         case LOAD_ALBUM:
             // orderedIds = orderIds(action.songs);
