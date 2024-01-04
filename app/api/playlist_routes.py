@@ -28,6 +28,8 @@ def make_playlist():
         playlist = Playlist(
             title=form.title.data,
             user_id=current_user_id,
+            private=form.private.data,
+            image_url=form.image_url.data
         )
 
         db.session.add(playlist)
@@ -62,6 +64,7 @@ def patch_playlist(playlist_id):
     if form.validate_on_submit():
 
         playlist.title = form.title.data
+        playlist.private = form.private.data
 
         if form.image_url.data:
             playlist.image_url = form.image_url.data

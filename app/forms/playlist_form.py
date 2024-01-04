@@ -7,4 +7,5 @@ class PlaylistForm(FlaskForm):
     title = StringField('title', validators=[
         DataRequired('Title is required'),
         Length(max=50, message='Title must be less than 50 characters')])
+    private = BooleanField('private')
     image_url = StringField('image_url')

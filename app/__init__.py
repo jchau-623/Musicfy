@@ -11,6 +11,8 @@ from .api.auth_routes import auth_routes
 from .api.song_routes import song_routes
 from .api.album_routes import album_routes
 from .api.image_routes import image_routes
+from .api.song_likes import song_like_routes
+from .api.album_likes import album_like_routes
 from .api.playlist_routes import playlist_routes
 
 from .seeds import seed_commands
@@ -28,7 +30,6 @@ login.login_view = 'auth.unauthorized'
 def load_user(id):
     return User.query.get(int(id))
 
-
 # Tell flask about our seed commands
 app.cli.add_command(seed_commands)
 
@@ -38,6 +39,8 @@ app.register_blueprint(auth_routes, url_prefix='/api/auth')
 app.register_blueprint(song_routes, url_prefix='/api/songs')
 app.register_blueprint(album_routes, url_prefix='/api/albums')
 app.register_blueprint(image_routes, url_prefix='/api/images')
+app.register_blueprint(song_like_routes, url_prefix='/api/song_likes')
+app.register_blueprint(album_like_routes, url_prefix='/api/album_likes')
 app.register_blueprint(playlist_routes, url_prefix='/api/playlists')
 db.init_app(app)
 Migrate(app, db)

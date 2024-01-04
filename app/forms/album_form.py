@@ -10,4 +10,5 @@ class AlbumForm(FlaskForm):
     artist = StringField('artist', validators=[
         DataRequired('Artist is required'),
         Length(max=50, message='Artist name must be less than 50 characters')])
+    private = BooleanField('private')
     image_url = StringField('image_url')

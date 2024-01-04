@@ -5,6 +5,7 @@ import SongPlayer from '../SongPlayer';
 import { getNewAlbumsArray, getNewSongsArray, getTopAlbumsArray, loadHome, setLoaded } from '../../store/home';
 import { getPlaylists } from '../../store/playlists';
 import './HomePage.css'
+// import Album from './Album';
 
 export default function HomePage() {
 

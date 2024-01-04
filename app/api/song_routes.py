@@ -31,6 +31,44 @@ def get_new_songs(limit):
 
     return {'songs': [song.to_dict() for song in songs]}, 200
 
+@song_routes.route('/featured')
+def get_featured_songs():
+    """
+    First returns 3 random songs from 10 most recent singles (no album association).
+    If all tracks are associated with albums, returns 3 random from all recent.
+    """
+
+    # Songs without track numbers don't belong to albums
+    songs = Song.query.filter(Song.track_number==None).order_by(
+        Song.id.desc()).limit(10).all()
+
+    if type(songs) is list:
+        if len(songs) == 0:
+            songs = Song.query.order_by(Song.id.desc()).limit(10).all()
+
+    if not songs:
+        return {'error': 'Could not retreive songs from the database.'}, 500
+
+
+    num_of_songs = len(songs)
+    featured_songs = []
+    max_songs = None
+
+    if len(songs) < 3:
+        max_songs = len(songs)
+    else:
+        max_songs = 3
+
+    number_cashe = []
+
+    while len(featured_songs) < max_songs and len(number_cashe) < num_of_songs:
+        idx = randint(0, num_of_songs - 1)
+
+        if idx not in number_cashe:
+            featured_songs.append(songs[idx])
+            number_cashe.append(idx)
+
+    return {'songs': [song.to_dict() for song in featured_songs]}, 200
 
 @song_routes.route('/album/<int:album_id>')
 def get_songs_by_album(album_id):

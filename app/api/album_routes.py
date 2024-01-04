@@ -45,11 +45,14 @@ def get_most_liked_albums(limit):
     """
     Returns list of most liked albums. Can specify the amount via limit
     """
+    def by_length(e):
+        return len(e.likers)
+
     albums = Album.query.all()
 
     # Sort by most likers. TODO: rework query for time complexity
 
-    albums.sort(reverse=True)
+    albums.sort(reverse=True, key=by_length)
 
     return {'albums': [album.to_dict() for album in albums[0:limit]]}
 
@@ -75,10 +78,11 @@ def create_album():
         artist_id = get_or_make_artist_id(form.artist.data)
 
         album = Album(
-            title = form.title.data,
-            artist_id = artist_id,
             user_id = current_user_id,
-            image_url = form.image_url.data
+            title = form.title.data,
+            private = form.private.data,
+            image_url = form.image_url.data,
+            artist_id = artist_id
         )
 
         db.session.add(album)

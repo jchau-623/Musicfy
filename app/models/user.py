@@ -1,7 +1,8 @@
 from .db import db
 from werkzeug.security import generate_password_hash, check_password_hash
 from flask_login import UserMixin
-
+from .song_likes import song_likes
+from .album_likes import album_likes
 
 class User(db.Model, UserMixin):
     __tablename__ = 'users'
@@ -14,6 +15,8 @@ class User(db.Model, UserMixin):
 
     albums = db.relationship('Album', back_populates='user')
     songs = db.relationship('Song', back_populates='user')
+    liked_songs = db.relationship('Song', back_populates='likers', secondary=song_likes)
+    liked_albums = db.relationship('Album', back_populates='likers', secondary=album_likes)
     playlists = db.relationship('Playlist', back_populates='user')
 
     @property
@@ -30,16 +33,21 @@ class User(db.Model, UserMixin):
     def s_to_dict(self):
         return {
             'id': self.id,
-            'username': self.username
+            'username': self.username,
         }
 
+    #profile User to_dict
     def u_to_dict(self):
         return {
-            'id': self.id,
+             'id': self.id,
             'username': self.username,
             'email': self.email,
             'albums': [album.u_to_dict() for album in self.albums],
-            'playlists': [playlist.to_dict() for playlist in self.playlists]
+            'playlists': [playlist.to_dict() for playlist in self.playlists],
+            'liked': {
+                'song_ids': [song.id for song in self.liked_songs],
+                'album_ids': [album.id for album in self.liked_albums]
+            }
         }
 
     def to_dict(self):
@@ -48,4 +56,8 @@ class User(db.Model, UserMixin):
             'username': self.username,
             'email': self.email,
             'albums': [album.u_to_dict() for album in self.albums],
+            'liked': {
+                'song_ids': [song.id for song in self.liked_songs],
+                'album_ids': [album.id for album in self.liked_albums]
+            }
         }
