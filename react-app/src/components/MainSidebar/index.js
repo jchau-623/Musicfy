@@ -27,11 +27,11 @@ export default function MainSidebar() {
                 </div>
                 <div>
                     <AlbumUploadModal />
-                    <i className='fad fa-album icon'></i>
+                    <i class="fa-solid fa-compact-disc icon"></i>
                 </div>
                 <div>
                     <PlaylistUploadModal />
-                    <i className='fad fa-list-music icon'></i>
+                    <i class="fa-solid fa-forward icon"></i>
                 </div>
             </div>
 
