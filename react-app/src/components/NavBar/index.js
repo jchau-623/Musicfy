@@ -1,10 +1,12 @@
 import React, { useEffect, useState } from 'react';
 import { NavLink } from 'react-router-dom';
+import { useSelector } from 'react-redux';
 import LogoutButton from '../auth/LogoutButton';
 
 import './NavBar.css'
 
 export default function NavBar() {
+  const user = useSelector(({ session }) => session.user);
   const body = document.querySelector('body')
   body.style.margin = '0'
 

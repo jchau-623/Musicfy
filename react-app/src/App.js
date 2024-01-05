@@ -12,7 +12,6 @@ import NavBar from './components/NavBar';
 import Player from './components/Player';
 // import MainSidebar from './components/MainSidebar';
 import Library from './components/Library'
-import YourLibraryPage from './components/YourLibraryPage';
 import { PathProvider } from './context/PathContext';
 
 function App() {
@@ -48,9 +47,6 @@ function App() {
           <ProtectedRoute path={`/library`}>
             <Library />
             {/* <MainSidebar /> */}
-          </ProtectedRoute>
-          <ProtectedRoute path='/library' exact={true} >
-            <YourLibraryPage />
           </ProtectedRoute>
           <Route path="*">
             <ErrorPage />
