@@ -169,7 +169,7 @@ export default function SongEditForm({ closeModal, song, album }) {
             onSubmit={handleSubmit}
         >
             {isLoading && songFile && <p className='wait-message loading song'>Loading... Please don't close the menu</p>}
-            <i onClick={closeModal} className='fal fa-times close-icon'></i>
+            <i onClick={closeModal} className="fa-solid fa-x close-icon"></i>
 
             <div
                 className='file-input-container'

@@ -63,7 +63,7 @@ export default function PlaylistUploadForm({ closeModal }) {
             className='form'
             onSubmit={handleSubmit}
         >
-            <i onClick={closeModal} className='fal fa-times close-icon'></i>
+            <i onClick={closeModal} className="fa-solid fa-x close-icon"></i>
 
             <div
                 className='file-input-container'

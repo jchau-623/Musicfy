@@ -60,7 +60,7 @@ export default function PlaylistEditForm({ closeModal, playlist}) {
 
     return (
         <form className='update-form album' onSubmit={handleSubmit}>
-            <i onClick={closeModal} className='fal fa-times close-icon'></i>
+            <i onClick={closeModal} className="fa-solid fa-x close-icon"></i>
             <img
                 alt='song artwork'
                 src={imageUrl}

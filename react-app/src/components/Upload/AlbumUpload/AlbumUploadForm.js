@@ -81,7 +81,7 @@ export default function AlbumUploadForm({ closeModal }) {
             className='album-upload form'
             onSubmit={handleSubmit}
         >
-            <i onClick={closeModal} className='fal fa-times close-icon'></i>
+            <i onClick={closeModal} className="fa-solid fa-x close-icon"></i>
 
             <div
                 className='file-input-container'

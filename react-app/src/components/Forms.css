@@ -53,6 +53,7 @@
     font-size: 13px;
     align-self: flex-end;
     margin-top: 25px;
+    cursor: pointer;
 }
 
 .form .close-icon {

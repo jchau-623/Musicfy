@@ -4,7 +4,7 @@ export default function ConfirmSingle({ closeModal, song, update }) {
     return (
         <div className='confirm-delete-container'>
 
-            <i onClick={closeModal} className='fal fa-times close-icon'></i>
+            <i onClick={closeModal} className="fa-solid fa-x close-icon"></i>
 
             <div className='confirm-message-box'>
 

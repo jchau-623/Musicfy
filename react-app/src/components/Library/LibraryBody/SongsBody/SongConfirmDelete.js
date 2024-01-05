@@ -6,9 +6,9 @@ export default function SongConfirmDelete({ song, closeModal, deleteSong }) {
     return (
         <div className='confirm-delete-container'>
 
-            <i onClick={closeModal} className='fal fa-times close-icon'></i>
+            <i onClick={closeModal} className="fa-solid fa-x close-icon"></i>
 
-                <img alt='song artworko' src={song.image_url}/>
+            <img alt='song artworko' src={song.image_url} />
 
             <div className='confirm-message-box'>
 

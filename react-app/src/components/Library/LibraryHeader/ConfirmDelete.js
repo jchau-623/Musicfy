@@ -7,7 +7,7 @@ export default function ConfirmDelete({ album, closeModal, remove, inPlaylist })
     return (
         <div className='confirm-delete-container'>
 
-            <i onClick={closeModal} className='fal fa-times close-icon'></i>
+            <i onClick={closeModal} className="fa-solid fa-x close-icon"></i>
 
             <img alt='song artworko' src={album?.image_url} />
 

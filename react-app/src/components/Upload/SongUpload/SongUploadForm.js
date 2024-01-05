@@ -177,7 +177,7 @@ export default function SongUploadForm({ closeModal }) {
     return (
         <form className='songFile-upload-form form' onSubmit={handleSubmit}>
             {isLoading && <p className='wait-message loading song'>Loading... Please don't close the menu</p>}
-            <i onClick={closeModal} className='fal fa-times close-icon'></i>
+            <i onClick={closeModal} className="fa-solid fa-x close-icon"></i>
 
             <div
                 className='file-input-container'
