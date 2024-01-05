@@ -60,7 +60,7 @@ export default function LibraryHeader({ libraryItems }) {
             else if (sectionParam === 'songs') headerTitle = 'Liked Songs';
         }
         else headerTitle = 'Your Collection'
-        headerUrl = 'https://cofi-bucket.s3.amazonaws.com/art-seeds/escapade.png';
+        headerUrl = 'https://yuhtube-bucket.s3.amazonaws.com/artists-seeds/boombox-cartel-propic.jpg';
     }
 
     const openDropdown = () => setShowDropdown(true);

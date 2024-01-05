@@ -30,7 +30,7 @@ export default function LibraryHeader({ libraryItems }) {
     const sectionParam = match?.params?.section;
     const likedParam = location.pathname.split('/')[4] === 'liked';
     const inPlaylist = sectionParam === 'playlists';
-    
+
 
     let headerUrl;
     let headerTitle
@@ -50,7 +50,7 @@ export default function LibraryHeader({ libraryItems }) {
             else if (sectionParam === 'songs') headerTitle = 'Liked Songs';
         }
         else headerTitle = 'Your Collection'
-        headerUrl = 'https://cofi-bucket.s3.amazonaws.com/art-seeds/escapade.png';
+        headerUrl = 'https://yuhtube-bucket.s3.amazonaws.com/artists-seeds/boombox-cartel-propic.jpg';
     }
 
     useEffect(() => {

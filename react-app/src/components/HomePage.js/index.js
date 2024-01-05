@@ -4,6 +4,7 @@ import NavBar from '../NavBar';
 import SongPlayer from '../SongPlayer';
 import AlbumPlayer from '../AlbumPlayer';
 import HomeSidebar from './HomeSidebar';
+import MainSidebar from '../MainSidebar';
 import { getNewAlbumsArray, getNewSongsArray, getTopAlbumsArray, loadHome, setLoaded } from '../../store/home';
 import { getPlaylists } from '../../store/playlists';
 import './HomePage.css'
@@ -63,7 +64,7 @@ export default function HomePage() {
             </div>
 
             <div className='sidebar-container'>
-                
+                <MainSidebar />
 
                 <HomeSidebar setHomeDisplay={setHomeDisplay} homeDisplay={homeDisplay}/>
             </div>

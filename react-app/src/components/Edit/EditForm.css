@@ -1,0 +1,143 @@
+.update-form.album {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: var(--main-gray);
+    border-radius: 5px;
+    padding: 20px;
+    position: relative;
+}
+
+
+.update-form.album .image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.update-form.album img {
+    height: 170px;
+    width: 170px;
+    object-fit: cover;
+}
+
+.update-form.album  .image-overlay {
+    height: 170px;
+    width: 170px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.644);
+    color: var(--text-main-white);
+    font-family: var(--header-font);
+    pointer-events: none;
+}
+
+.update-form.album  .image-overlay i {
+    font-size: 30px;
+}
+
+.update-form.album .confirm-message-box {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--text-main-white);
+    font-size: 18px;
+    padding-left: 20px;
+}
+
+.update-form.albumx .song-name {
+    font-weight: bold;
+}
+
+
+
+.update-form.album .close-icon {
+    position: absolute;
+    font-size: 22px;
+    right: 16px;
+    top: 16px;
+    color: rgb(161, 161, 161);
+}
+
+.update-form.album .form-content {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    font-family: var(--header-font);
+}
+
+.update-form.album .form-content label {
+    color: var(--text-main-white);
+    padding-left: 5px;
+    margin: 0;
+    margin-top: 10px;
+}
+
+.update-form.album .form-content input {
+    background-color: var(--dropdown-gray);
+    border: none;
+    border-radius: 3px;
+    color: var(--text-main-white);
+    padding-left: 10px;
+    width: 260px;
+    margin: 0;
+
+    height: 37px;
+
+}
+
+.update-form.album .form-content .input-container:last-of-type {
+    margin-bottom: 20px;
+}
+
+.update-form.album .input-container {
+    position: relative;
+
+}
+
+.word-counter-container {
+    width: 62px;
+    height: 28px;
+    align-self: flex-end;
+}
+
+.update-form.album .word-counter {
+    position: absolute;
+    right: 0;
+    bottom: -18px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgba(128, 128, 128, 0.719);
+    font-size: 14px;
+}
+
+
+.update-form.album .word-counter.active {
+    color: red;
+}
+
+.update-form.album .form-content input:focus {
+    outline: none;
+}
+
+.update-form.album .form-content * {
+    margin: 5px;
+}
+
+.update-form.album button {
+    width: 70px;
+    height: 27px;
+    font-family: var(--header-font);
+
+    color: var(--background-main-black);
+    background-color: var(--text-main-white);
+    border-radius: 15px;
+    border: none;
+    font-weight: bold;
+    font-size: 13px;
+    align-self: flex-end;
+}

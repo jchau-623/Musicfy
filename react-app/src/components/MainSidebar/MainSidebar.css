@@ -1,0 +1,94 @@
+#main-sidebar {
+    grid-column-start: 2;
+    top: 50px;
+    width: 200px;
+    border-left: 2px solid var(--border-gray);
+    border-bottom: 2px solid var(--border-gray);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: var(--header-font);
+    grid-row-start: 1;
+    min-height: 172px;
+}
+
+#main-sidebar .content-container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#main-sidebar .content-container > div {
+    color: gray;
+    display: flex;
+    align-items: center;
+    transition: .5s;
+}
+
+#main-sidebar .content-container > div:hover {
+    color: white;
+}
+
+#main-sidebar .content-container > div p {
+    cursor: pointer;
+}
+
+#main-sidebar .icon {
+    font-size: 24px;
+    color: gray;
+    margin: 10px;
+}
+
+.sidebar-container {
+    display: grid;
+    height: 100%;
+    flex-direction: column;
+
+    /* navbar + player = 140px */
+    /* 50px to adjust for library song body header */
+    grid-template-rows: calc((0.4 * (100vh - 140px)) + 50px)  calc((0.6 * (100vh - 140px)) - 50px);
+}
+
+
+.nav-button-container {
+    align-self: center;
+    margin: 5px;
+    width: 45%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-button-container div {
+    border: rgba(128, 128, 128, 0.371) 1px solid;
+    border-radius: 50%;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.nav-button-container i {
+    font-size: 30px;
+    cursor: pointer;
+    color: gray;
+    transition: .4s;
+}
+
+.nav-button-container i:hover {
+    color: white;
+}
+
+.nav-button-container div.faded {
+    opacity: .4;
+}
+
+
+.nav-button-container div.faded,
+.nav-button-container div.faded i:hover {
+    color: gray;
+    cursor: default;
+}

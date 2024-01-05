@@ -1,0 +1,259 @@
+.form {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: var(--main-gray);
+    border-radius: 5px;
+    padding: 20px;
+    position: relative;
+}
+
+.form .form-content {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    font-family: var(--header-font);
+}
+
+.form .form-content label{
+    color: var(--text-main-white);
+    padding-left: 5px;
+    margin: 0;
+    margin-top: 10px;
+}
+
+.form .form-content input,
+.form .form-content select {
+    background-color: var(--dropdown-gray);
+    border: none;
+    border-radius: 3px;
+    color: var(--text-main-white);
+    padding-left: 10px;
+    width: 260px;
+    margin: 0;
+
+    height: 32px;
+
+}
+
+.form .form-content input:focus {
+    outline: none;
+}
+
+.form button {
+    width: 95px;
+    height: 32px;
+    font-family: var(--header-font);
+
+    color: var(--background-main-black);
+    background-color: var(--text-main-white);
+    border-radius: 15px;
+    border: none;
+    font-weight: bold;
+    font-size: 13px;
+    align-self: flex-end;
+    margin-top: 25px;
+}
+
+.form .close-icon {
+    position: absolute;
+    font-size: 22px;
+    right: 16px;
+    top: 16px;
+    color: rgb(161, 161, 161);
+}
+
+.form .icon {
+    font-size: 60px;
+    color: rgb(105, 105, 105);
+}
+
+.form .icon.check.lg {
+    font-size: 60px;
+    color: rgb(15, 180, 15);
+}
+
+.form .icon.active {
+    color: var(--text-main-white)
+}
+
+.form .file-input-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.form .input-container {
+    position: relative;
+}
+
+.form .file-input-body {
+    position: relative;
+    height: 170px;
+    width: 170px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    box-shadow: 2px 2px 30px .2px rgba(0, 0, 0, 0.322);
+
+    cursor: pointer;
+}
+
+.word-counter-container {
+    width: 62px;
+    height: 28px;
+    align-self: flex-end;
+}
+
+.form .word-counter {
+    position: absolute;
+    right: 0;
+    bottom: -18px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgba(128, 128, 128, 0.719);
+    font-size: 14px;
+}
+
+
+.form .word-counter.active {
+    color: red;
+}
+
+.form .file-message {
+    position: absolute;
+    font-size: 14px;
+    bottom: 10px;
+    width: 150px;
+    text-align: center;
+    font-family: var(--main-font);
+    color: var(--text-main-white)
+
+}
+
+.form .file-message.art-edit {
+    background-color: rgba(0, 0, 0, 0.514);
+    border-radius: 6px;
+    width: 100%;
+    bottom: 0;
+}
+
+.form .file-message p {
+    color: white;
+}
+
+.form .file-message.art-edit p:last-of-type {
+    font-size: 12px;
+    font-style: italic;
+}
+
+.form .file-input-footer {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin-top: 10px;
+    padding: 0 5px;
+    color: rgb(105, 105, 105);
+    font-size: 20px;
+    z-index: 1;
+}
+
+.form .file-input-footer > div {
+    width: 70px;
+}
+
+.form .file-input-footer.edit > div {
+    width: 30px;
+}
+
+.form .file-input-footer .sm-icon {
+    padding: 0 5px;
+}
+
+.form .file-input-footer.edit .sm-icon.active {
+    border-bottom: 1px solid rgb(105, 105, 105);
+}
+
+
+.form .file-input-footer .check {
+    color: rgb(15, 180, 15);
+    opacity: 0;
+}
+
+.form .file-input-footer .check.active {
+    opacity: 1;
+}
+
+.form .file-input-body img {
+    height: 170px;
+    width: 170px;
+    object-fit: cover;
+}
+
+
+.signup-form {
+    padding-right: 30px;
+    padding-bottom: 30px;
+}
+
+.signup-form .input-container input {
+    width: 360px;
+}
+
+.signup-form label,
+.login-form label {
+    padding: 4px;
+}
+
+
+.login-buttons {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.login-buttons .demo {
+    background-color: var(--accent-orange);
+}
+
+.login-form .form-content
+.signup-form .form-content {
+    margin: 0;
+}
+
+.form h2 {
+    margin-right: 20px;
+    font-family: var(--header-font);
+    color: var(--text-secondary-white)
+}
+
+.signup-form h2 {
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+.form p {
+    margin-top: 3px;
+    margin-bottom: 0;
+    color: var(--accent-orange)
+}
+
+.wait-message.loading {
+    color: gray;
+    font-family: var(--main-font);
+    position: absolute;
+    bottom: 3px;
+    font-size: 15px;
+    width: 100%;
+}
+
+.wait-message.loading.playlist {
+    text-align: center;
+
+}
+
+.close-icon {
+    cursor: pointer;
+}
