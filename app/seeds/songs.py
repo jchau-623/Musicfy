@@ -1,4 +1,5 @@
 from app.models import db, Song
+from app.seeds.song_likes import add_likes_to_songs
 
 songs = [
     Song( #1
@@ -1122,7 +1123,7 @@ def seed_songs():
     for song in songs:
         db.session.add(song)
 
-
+        add_likes_to_songs(song)
 
     db.session.commit()
 
