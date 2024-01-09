@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux'
-import NavBar from '../NavBar';
 import SongPlayer from '../SongPlayer';
 import AlbumPlayer from '../AlbumPlayer';
 import HomeSidebar from './HomeSidebar';
 import MainSidebar from '../MainSidebar';
+import TileCarousel from '../TileCarousel';
 import { getNewAlbumsArray, getNewSongsArray, getTopAlbumsArray, loadHome, setLoaded } from '../../store/home';
 import { getPlaylists } from '../../store/playlists';
 import './HomePage.css'
@@ -16,11 +16,11 @@ export default function HomePage() {
 
     const [homeDisplay, setHomeDisplay] = useState('albums');
     const homeItems = useSelector(({ home }) => home);
-    // const newSongs = useSelector(getNewSongsArray);
-    // const newAlbums = useSelector(getNewAlbumsArray);
+    const newSongs = useSelector(getNewSongsArray);
+    const newAlbums = useSelector(getNewAlbumsArray);
     const featuredAlbum = homeItems.featuredAlbum;
     const featuredSongs = Object.values(homeItems.featuredSongs)
-    // const topAlbums = useSelector(getTopAlbumsArray);
+    const topAlbums = useSelector(getTopAlbumsArray);
 
 
     useEffect(() => {
@@ -38,8 +38,10 @@ export default function HomePage() {
                 <AlbumPlayer album={featuredAlbum} />
 
                 <h2>New Albums</h2>
+                <TileCarousel content={newAlbums} option='albums' identifier='newAlbums'/>
 
                 <h2>Top Albums</h2>
+                <TileCarousel content={topAlbums} option='albums'identifier='topAlbums'/>
             </>
         )
     } else if (homeDisplay === 'songs') {
@@ -53,6 +55,7 @@ export default function HomePage() {
                     ))}
                 </div>
                 <h2>New Songs</h2>
+                <TileCarousel content={newSongs} option='songs'/>
             </>
         )
     }
