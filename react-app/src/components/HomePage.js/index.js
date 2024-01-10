@@ -18,6 +18,7 @@ export default function HomePage() {
     const homeItems = useSelector(({ home }) => home);
     const newSongs = useSelector(getNewSongsArray);
     const newAlbums = useSelector(getNewAlbumsArray);
+    console.log(newSongs, '---------')
     const featuredAlbum = homeItems.featuredAlbum;
     const featuredSongs = Object.values(homeItems.featuredSongs)
     const topAlbums = useSelector(getTopAlbumsArray);
