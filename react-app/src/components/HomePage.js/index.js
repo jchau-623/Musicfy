@@ -23,6 +23,7 @@ export default function HomePage() {
     const featuredSongs = Object.values(homeItems.featuredSongs)
     const topAlbums = useSelector(getTopAlbumsArray);
 
+
     useEffect(() => {
         if (homeItems.isLoaded) return;
         dispatch(getPlaylists());
