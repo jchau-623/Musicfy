@@ -14,7 +14,6 @@ export default function HomePage() {
 
     const dispatch = useDispatch();
 
-    
     const [homeDisplay, setHomeDisplay] = useState('albums');
     const homeItems = useSelector(({ home }) => home);
     const newSongs = useSelector(getNewSongsArray);
