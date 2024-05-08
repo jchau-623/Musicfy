@@ -11,15 +11,6 @@ def user_exists(form, field):
     if user:
         raise ValidationError('Email address is already in use.')
 
-def password_check(form, field):
-    password = field.data
-    special = ['!', '@', '#', '$', '%', '^', '&', '*']
-    if len(password) < 6 or len(password) > 20:  # Corrected the maximum length
-        raise ValidationError('Password must be between 6 and 20 characters')
-
-    elif not any(x in password for x in special):
-        raise ValidationError("Please include at least one of: ! @ # $ % ^ & * ")
-
 
 def username_exists(form, field):
     # Checking if username is already in use
@@ -31,13 +22,23 @@ def username_exists(form, field):
 def repeat_email(form, field):
     repeat_email = field.data
     email = form.data['email']
-    if repeat_email != email:
-        raise ValidationError("Emails must match")
+
+    if not repeat_email == email:
+        raise ValidationError("Your emails must match.")
+
+def password_check(form, field):
+    password = field.data
+    special = ['!', '@', '#', '$', '%', '^', '&', '*']
+    if len(password) < 5 or len(password) > 20:
+        raise ValidationError('Password must be between 5 and 20 characters.')
+    elif not any(x in password for x in special):
+        raise ValidationError("Please include at least one of the following: !@#$%^&*")
+
 
 
 class SignUpForm(FlaskForm):
+    email = StringField('email', validators=[DataRequired('You need to enter your email.'), user_exists, Length(min=3, max=255, message='Email must be between 3 and 255 characters.')])
+    repeat_email = StringField('repeat_email', validators=[DataRequired('You need to confirm your email.'), repeat_email])
+    password = StringField('password', validators=[DataRequired('You need to enter a password.'), password_check])
     username = StringField(
-        'username', validators=[DataRequired('Username is required'), username_exists, Length(min=3, max=30, message='Username must be between 3 and 30 characters.')])
-    email = StringField('email', validators=[DataRequired('Email address is required'), Email('Email address is invalid'), user_exists, Length(min=3, max=255, message='Email must be between 3 and 255 characters.')])
-    password = StringField('password', validators=[DataRequired('Password is required'), password_check])
-    repeat_email = StringField('repeat_email', validators=[DataRequired('Please confirm your email'), repeat_email])
+        'username', validators=[DataRequired('Enter a name for your profile.'), username_exists,Length(min=3, max=40, message='Username must be between 3 and 30 characters.')])
