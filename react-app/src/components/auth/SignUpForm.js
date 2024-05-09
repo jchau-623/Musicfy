@@ -16,8 +16,9 @@ const SignUpForm = () => {
   const onSignUp = async (e) => {
     e.preventDefault();
       const data = await dispatch(signUp(username, email, password, repeatEmail));
-      console.log(data, 'this is data')
-      setErrors(data)
+      if (data) {
+        setErrors(data)
+    }
   };
 
   const updateUsername = (e) => {

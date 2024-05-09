@@ -21,9 +21,8 @@ def username_exists(form, field):
 
 def repeat_email(form, field):
     repeat_email = field.data
-    email = form.data['email']
-
-    if not repeat_email == email:
+    email = form.data.get('email')
+    if repeat_email != email:
         raise ValidationError("Your emails must match.")
 
 def password_check(form, field):
